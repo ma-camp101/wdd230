@@ -1,7 +1,13 @@
 body {
-    background-color: oldlace;
+    
     width: 900px;
 }
 header {
-    background-color: blueviolet;
+    display: flex;
+    background-color: rgb(194, 171, 212);
+    border-radius: 10px 10px 10px 10px;
+}
+footer {
+    background-color: rgb(194, 171, 212);
+    border-radius: 10px 10px 10px 10px;
 }
