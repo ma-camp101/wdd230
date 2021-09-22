@@ -8,17 +8,18 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     background-color: rgb(194, 171, 212);
     border: solid thin;
     border-color:rgb(39, 26, 49);
     border-radius: 5px 5px 5px 5px;
 }
 header h1 {
-    font-size: 48px;
+    font-size: 1.5rem;
     padding-left: 20px;
 }
 header img {
+    float: right;
     border-radius: 5px 5px 5px 5px;
 }
 main  ul {
