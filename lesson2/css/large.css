@@ -1,0 +1,19 @@
+@media only screen and (min-width: 780px) { 
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header img {
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    footer .copy {
+        font-size: 14px;
+    }
+    footer .modified {
+        font-size: 12px;
+    }
+}
