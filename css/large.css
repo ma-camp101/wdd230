@@ -1,0 +1,10 @@
+@media only screen and (min-width: 780px) { 
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header img {
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+}
