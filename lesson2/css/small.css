@@ -3,19 +3,19 @@ body {
     width: auto;
 }
 header {
-    display: flex;
-    flex-direction: column-reverse;
+    display: grid;
+    justify-items: center;
     align-items: center;
     background-color: rgb(194, 171, 212);
 }
 header h1 {
+    grid-column: 1;
     font-size: 1.5rem;
 }
 header img {
     padding-top: 10px;
 }
 main {
-    display: grid;
     grid-template-columns: 1fr;
 }
 h2 {
@@ -23,8 +23,8 @@ h2 {
     padding-left: 30px;
 }
 footer {
-    height:100px;
     display: grid;
+    height:100px;
     grid-template-rows: 15px 15px 15px;
     justify-items: center;
     background-color: rgb(194, 171, 212);

@@ -1,7 +1,6 @@
 @media only screen and (min-width: 480px) {
     header {
-        flex-direction: row;
-        justify-content: space-between;
+    
     }
     header img {
         padding-right: 10px;
