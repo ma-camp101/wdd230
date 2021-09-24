@@ -1,6 +1,6 @@
 body {
     font-family: "Lato", "Open Sans", sans-serif;
-    width: auto;
+    width: 420px;
 }
 header {
     display: grid;
@@ -9,18 +9,38 @@ header {
     background-color: rgb(194, 171, 212);
 }
 header h1 {
-    grid-column: 1;
     font-size: 1.5rem;
 }
 header img {
     padding-top: 10px;
 }
 main {
+    display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 5px;
 }
-h2 {
-    font-size: 1.25em;
-    padding-left: 30px;
+.s1 {
+    background-color: rgb(221, 219, 223);
+    border: solid thin;
+    border-color: rgb(123, 123, 124);
+    padding: 5px;
+}
+.s1 h2 {
+    font-size: 1.2em;
+    padding-left: 40px;
+}
+.s1 h3 {
+    font-size: 1em;
+    padding-left: 130px;
+}
+.s1 a {
+    padding-left: 70px;
+}
+.s1 img {
+    border: solid thin;
+    border-color: rgb(123, 123, 124);
+    margin-left: 20px;
 }
 footer {
     display: grid;
