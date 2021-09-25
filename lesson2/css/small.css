@@ -1,8 +1,8 @@
 body {
     font-family: "Lato", "Open Sans", sans-serif;
-    width: 420px;
 }
 header {
+    width: 350px;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -15,8 +15,10 @@ header img {
     padding-top: 10px;
 }
 main {
+    width: 280px;
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 10px;
     justify-items: center;
     padding: 5px;
 }
@@ -40,6 +42,9 @@ main {
 .s1 img {
     padding-left: 20px;
 }
+.s1 p {
+    line-height: 1.25em;
+}
 .s2 {
     background-color: rgb(221, 219, 223);
     border: solid thin;
@@ -59,6 +64,9 @@ main {
 }
 .s2 img {
     padding-left: 20px;
+}
+.s2 p {
+    line-height: 1.25em;
 }
 .s3 {
     background-color: rgb(221, 219, 223);
@@ -80,7 +88,11 @@ main {
 .s3 img {
     padding-left: 20px;
 }
+.s3 p {
+    line-height: 1.25em;
+}
 footer {
+    width: 350px;
     display: grid;
     height:100px;
     grid-template-rows: 15px 15px 15px;
