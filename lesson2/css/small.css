@@ -2,7 +2,7 @@ body {
     font-family: "Lato", "Open Sans", sans-serif;
 }
 header {
-    width: 350px;
+    width: 415px;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -15,7 +15,7 @@ header img {
     padding-top: 10px;
 }
 main {
-    width: 280px;
+    width: 390px;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
@@ -97,7 +97,7 @@ main {
     padding: 5px;
 }
 footer {
-    width: 350px;
+    width: 415px;
     display: grid;
     height:100px;
     grid-template-rows: 15px 15px 15px;
