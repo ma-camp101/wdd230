@@ -38,9 +38,47 @@ main {
     padding-left: 70px;
 }
 .s1 img {
+    padding-left: 20px;
+}
+.s2 {
+    background-color: rgb(221, 219, 223);
     border: solid thin;
     border-color: rgb(123, 123, 124);
-    margin-left: 20px;
+    padding: 5px;
+}
+.s2 h2 {
+    font-size: 1.2em;
+    padding-left: 40px;
+}
+.s2 h3 {
+    font-size: 1em;
+    padding-left: 130px;
+}
+.s2 a {
+    padding-left: 70px;
+}
+.s2 img {
+    padding-left: 20px;
+}
+.s3 {
+    background-color: rgb(221, 219, 223);
+    border: solid thin;
+    border-color: rgb(123, 123, 124);
+    padding: 5px;
+}
+.s3 h2 {
+    font-size: 1.2em;
+    padding-left: 40px;
+}
+.s3 h3 {
+    font-size: 1em;
+    padding-left: 130px;
+}
+.s3 a {
+    padding-left: 70px;
+}
+.s3 img {
+    padding-left: 20px;
 }
 footer {
     display: grid;
