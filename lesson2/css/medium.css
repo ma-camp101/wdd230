@@ -1,6 +1,6 @@
 @media only screen and (min-width: 480px) {
     header {
-        width: 770px;
+        width: 700px;
         grid-template-columns: 1fr 1fr;
     }
     header img {
@@ -17,10 +17,8 @@
         padding-left: 20px;
     }
     main {
-        width: 770px;
         font-size: 24px;
         grid-template-columns: 1fr 1fr;
-        padding: 10px;
     }
     .s1 {
         padding-left: 5px;
@@ -30,7 +28,7 @@
         padding-left: 10px;
     }
     .s1 h3 {
-        font-size: 1em;
+        font-size: .9em;
         padding-left: 110px;
     }
     .s1 a {
@@ -39,16 +37,19 @@
     .s1 img {
         margin-left: 0px;
     }
+    .s1 p {
+        font-size: .6em;
+    }
     .s2 {
         padding-left: 5px;
     }
     .s2 h2 {
         font-size: .9em;
-        padding-left: 10px;
+        padding-left: 75px;
     }
     .s2 h3 {
-        font-size: 1em;
-        padding-left: 110px;
+        font-size: .9em;
+        padding-left: 70px;
     }
     .s2 a {
         padding-left: 20px;
@@ -56,25 +57,31 @@
     .s2 img {
         margin-left: 0px;
     }
+    .s2 p {
+        font-size: .6em;
+    }
     .s3 {
         padding-left: 5px;
     }
     .s3 h2 {
         font-size: .9em;
-        padding-left: 10px;
+        padding-left: 80px;
     }
     .s3 h3 {
-        font-size: 1em;
-        padding-left: 110px;
+        font-size: .8em;
+        padding-left: 95px;
     }
     .s3 a {
-        padding-left: 20px;
+        padding-left: 70px;
     }
     .s3 img {
         margin-left: 0px;
     }
+    .s3 p {
+        font-size: .6em;
+    }
     footer {
-        width: 770px;
+        width: 700px;
         height: 120px;
     }
     footer .copy {
