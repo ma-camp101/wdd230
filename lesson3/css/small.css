@@ -1,0 +1,18 @@
+body {
+    font-family: "Roboto", "Open Sans", sans-serif;
+    width: auto;
+}
+body {
+    background-color: #00A0FF;
+}
+header {
+    display: flex;
+    background-color: #f5f8de;
+    border: solid thin #aeb198;
+}
+header ul {
+    list-style: none;
+}
+header ul li a {
+    text-decoration: none;
+}
