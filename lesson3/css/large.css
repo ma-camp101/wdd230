@@ -19,6 +19,9 @@ h2 {
 body {
     width: 1024px;
 }
+main {
+    flex-direction: row;
+}
 .target {
     flex-direction: column;
 }
