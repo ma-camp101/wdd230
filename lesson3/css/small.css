@@ -1,14 +1,20 @@
-body {
-    font-family: "Roboto", "Open Sans", sans-serif;
-    width: auto;
+html {
+    width: 640px;
 }
 body {
+    font-family: "Roboto", "Open Sans", sans-serif;
     background-color: #00A0FF;
 }
 header {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
     background-color: #f5f8de;
     border: solid thin #aeb198;
+}
+header img {
+    width: 200px;
 }
 header ul {
     list-style: none;
@@ -16,7 +22,20 @@ header ul {
 header ul li a {
     text-decoration: none;
 }
+main {
+    background-color: #ffff92;
+    padding: 10px;
+    margin: 10px;
+}
+main p img {
+    border: solid thin rgb(109, 108, 47);
+}
+main p a {
+    text-decoration: none;
+}
 footer {
+    display: flex;
+    justify-content: center;
     background-color: #f5f8de;
     border: solid thin #aeb198;
 }
