@@ -16,6 +16,10 @@ header {
 header img {
     width: 200px;
 }
+header h1 {
+    font-family: "Expletus Sans", "Roboto", "Open Sans", sans-serif;
+    font-size: 3em;
+}
 header ul {
     list-style: none;
 }
@@ -29,9 +33,31 @@ header ul li a {
     font-weight: 600;
 }
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #ffff92;
-    padding: 10px;
+    padding: 5px;
     margin: 5px;    
+}
+.persona {
+    padding: 10px;
+    border: solid thin;
+}
+#u {
+    font-size: .6em;
+}
+#ee {
+    font-size: .6em;
+}
+.pad {
+    padding: 10px;
+}
+.typo {
+    flex-direction: column;
+}
+.h1font {
+    font-family: "Expletus Sans", "Roboto", "Open Sans", sans-serif;
 }
 main p img {
     border: solid thin rgb(109, 108, 47);
