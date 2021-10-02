@@ -22,10 +22,16 @@ header ul {
 header ul li a {
     text-decoration: none;
 }
+.button {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: 600;
+}
 main {
     background-color: #ffff92;
     padding: 10px;
-    margin: 10px;
+    margin: 5px;    
 }
 main p img {
     border: solid thin rgb(109, 108, 47);
