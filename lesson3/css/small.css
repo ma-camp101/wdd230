@@ -16,3 +16,7 @@ header ul {
 header ul li a {
     text-decoration: none;
 }
+footer {
+    background-color: #f5f8de;
+    border: solid thin #aeb198;
+}
