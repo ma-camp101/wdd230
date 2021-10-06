@@ -1,39 +1,45 @@
 @media only screen and (min-width: 1024px) { 
-header {
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1024px;
-}
-header ul {
-    display: inline-flex;
-
-    padding-right: 20PX;
-
-}
-header h1 {
-    font-size: 2em;
-}
-h2 {
-    font-size: 1.25em;
-}
-body {
-    width: 1024px;
-}
-main {
-    flex-direction: row;
-}
-.target {
-    flex-direction: column;
-}
-#u {
-    font-size: .8em;
-    font-weight: 400;
-}
-#ee {
-    font-weight: 400;
-    font-size: .8em;
-}
-footer {
-    width: 1024px;
-} 
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1520px;
+    }
+    header img {
+        padding-left: 5px;
+    }
+    header ul {
+        display: inline-flex;
+        padding-right: 40PX;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.25em;
+    }
+    body, footer {
+    width: 1520px;
+    }
+    .target {
+    padding-left: 400px;
+    }
+    .home, .color {
+        justify-content: space-evenly;
+    }
+    .pad {
+        width: 600px;
+    }
+    .typo, #a, #hh {
+        width: 900px;
+    }
+    .persona {
+        width: 450px;
+    }
+    #a, #hh {
+        font-size: 1.25em;
+    }
+    #u, #ee {
+        font-size: .8em;
+        font-weight: 400;
+    }   
 }

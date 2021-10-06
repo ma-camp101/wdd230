@@ -6,9 +6,7 @@
     }
     header ul {
         display: inline-flex;
-    
         padding-right: 20PX;
-    
     }
     header h1 {
         font-size: 2em;
@@ -16,7 +14,7 @@
     h2 {
         font-size: 1.25em;
     }
-    body {
+    body, footer {
         width: 1024px;
     }
     main {
@@ -25,15 +23,8 @@
     .target {
         flex-direction: column;
     }
-    #u {
+    #u, #ee {
         font-size: .8em;
         font-weight: 400;
     }
-    #ee {
-        font-weight: 400;
-        font-size: .8em;
-    }
-    footer {
-        width: 1024px;
-    } 
 }
