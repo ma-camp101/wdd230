@@ -2,7 +2,6 @@
     header {
         flex-direction: row;
         justify-content: space-between;
-        width: 1520px;
     }
     header img {
         padding-left: 5px;
@@ -17,8 +16,8 @@
     h2 {
         font-size: 1.25em;
     }
-    body, footer {
-    width: 1520px;
+    header, body, footer {
+    width: 1270px;
     }
     .target {
     padding-left: 400px;
