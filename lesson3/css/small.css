@@ -43,8 +43,6 @@ header ul {
     border: solid thin #aeb198;
 }
 .target {
-    display: grid;
-    grid-gap: 10px;
     background-color: #ffff92;
     padding: 5px;
 }
@@ -52,15 +50,6 @@ header ul {
     padding: 10px;
     background-color: #f5f8de;
     border: solid thin #aeb198;
-}
-#persona1 {
-    grid-row: 2;
-}
-#persona2 {
-    grid-row: 3;
-}
-#hh {
-    grid-row: 4;
 }
 #u,#ee {
     font-size: .6em;
@@ -75,7 +64,7 @@ header ul {
     flex-direction: column;
 }
 .h1font {
-    font-family: "Expletus Sans", "Roboto", "Open Sans", sans-serif;
+    font-family: 'Expletus Sans', sans-serif;
 }
 main p img {
     border: solid thin rgb(109, 108, 47);
