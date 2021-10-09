@@ -1,12 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@1,600&family=Open+Sans&family=Roboto&display=swap');
-
+body {
     background-color: #00A0FF;
-
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #f5f8de;
     border: solid thin #aeb198;
+}header img {
+    width: 150px;
+    margin-left: 20px;
+}
+header h1 {
     font-family: 'Expletus Sans', sans-serif;
-    
-
+    font-size: 1.4em;
+    margin-left: 10px;
+}
+.nav li {
+    list-style-type: none;
+    font-size: .8em;
+}
+.button {
+    width: 140px;
+    height: 30px;
+}
+.navlink {
+    text-decoration: none;
+}
+main {
     background-color: #ffff92;
-    
-    border: solid thin rgb(109, 108, 47);
+    font-size: .8em;
+    padding: 10px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f8de;
+    border: solid thin #aeb198;
+}
