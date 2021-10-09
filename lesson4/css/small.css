@@ -1,5 +1,4 @@
 body {
-    width: 410px;
     background-color: #00A0FF;
     font-family: 'Roboto', 'Open Sans', sans-serif;
 }
@@ -19,21 +18,22 @@ header h1 {
     padding-left: 30px;
 }
 nav {
+    display: flex;
     width: 100%;
-    display: inline-block;
-    background-color: #ffffff;
+    background-color: #000000;
     padding-top: 10px;
     margin-bottom: -5px;
-    border: solid thin #aeb198;
-}
-.navicon {
-    margin-left: 200px;
 }
 .menu li {
+    display: none;
     list-style-type: none;
 }
-.dropbtn {
-    text-rendering: optimizeLegibility;
+.menu li:first-child {
+    display: block;
+}
+.menu li a {
+    color: #ffff;
+    text-decoration: none;
 }
 main {
     display: flex;

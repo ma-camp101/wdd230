@@ -1,14 +1,16 @@
 @media only screen and (min-width: 768px) {
     header {
         flex-direction: row;
-        align-content: center;
         justify-content: center;
+    }
+    header img {
+        margin-left: -20px;
     }
     header h1 {
         font-size: 1em;
     }
     .nav li {
-        display: inline-flex;  
+        display: inline-block;
     }
     .button {
         width: 90px;
