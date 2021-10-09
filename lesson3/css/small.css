@@ -34,6 +34,16 @@ main {
     font-size: .8em;
     padding: 10px;
 }
+.color img {
+    width: 400px;
+    border: solid thin #aeb198;
+}
+.h1font {
+    font-family:'Expletus Sans', sans-serif;
+}
+.pad img {
+    width: 400px;
+}
 footer {
     display: flex;
     justify-content: center;
