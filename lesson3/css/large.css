@@ -27,12 +27,10 @@
     }
     .typo, #a, #hh {
         width: 900px;
+        font-size: 1.25em;
     }
     .persona {
         width: 450px;
-    }
-    #a, #hh {
-        font-size: 1.25em;
     }
     #u, #ee {
         font-size: .8em;
