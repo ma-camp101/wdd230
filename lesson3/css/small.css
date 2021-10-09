@@ -9,7 +9,8 @@ header {
     align-items: center;
     background-color: #f5f8de;
     border: solid thin #aeb198;
-}header img {
+}
+header img {
     width: 150px;
     margin-left: 20px;
 }
@@ -43,6 +44,14 @@ main {
 }
 .pad img {
     width: 400px;
+}
+.persona {
+    background-color: #f5f8de;
+    border: solid thin #aeb198;
+    padding: 10px;
+}
+.scenario {
+    margin-left: -20px;
 }
 footer {
     display: flex;
