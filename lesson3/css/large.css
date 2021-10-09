@@ -19,10 +19,7 @@
     header, body, footer {
     width: 1270px;
     }
-    .target {
-    padding-left: 400px;
-    }
-    .home, .color {
+    .home, .color, .typography {
         justify-content: space-evenly;
     }
     .pad {

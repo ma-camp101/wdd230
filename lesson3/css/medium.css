@@ -22,11 +22,8 @@
     header, body, footer {
         width: 768px;
     }
-    main {
+    .home, .color, .typography {
         flex-direction: row;
-    }
-    .target {
-        flex-direction: column;
     }
     #u, #ee {
         font-size: .8em;

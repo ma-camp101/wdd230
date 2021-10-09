@@ -31,10 +31,19 @@ header ul {
     border-radius: 5px 5px 5px 5px;
     font-weight: 600;
 }
-main {
+.home , .color, .typography {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #ffff92;
+    padding: 5px;
+}
+.color img {
+    border: solid thin #aeb198;
+}
+.target {
+    display: grid;
+    grid-gap: 10px;
     background-color: #ffff92;
     padding: 5px;
 }
@@ -43,11 +52,23 @@ main {
     background-color: #f5f8de;
     border: solid thin #aeb198;
 }
+#persona1 {
+    grid-row: 2;
+}
+#persona2 {
+    grid-row: 3;
+}
+#hh {
+    grid-row: 4;
+}
 #u,#ee {
     font-size: .6em;
 }
 .pad {
     padding: 20px;
+}
+.pad img {
+    border: solid thin #aeb198;
 }
 .typo {
     flex-direction: column;
