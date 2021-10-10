@@ -4,14 +4,22 @@
         justify-content: center;
     }
     header img {
-        margin-left: -20px;
+        margin-left: 20px;
     }
     header h1 {
-        font-size: 1em;
+        font-size: 1.3em;
+        margin-left: -10px;
     }
-    #nav {
+    .nav {
+        display: flex;
+        gap: 5px;
         flex-direction: row;
         margin-bottom: 0px;
+        margin-right: 10px;
+    }
+    #home {
+        width: 60px;
+        padding: 5px 30px 5px 10px;
     }
     main {
         display: grid;

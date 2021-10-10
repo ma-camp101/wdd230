@@ -10,6 +10,7 @@ header {
     align-items: center;
     background-color: #f5f8de;
     border: solid thin #aeb198;
+    margin-left: -20px;
 }
 header img {
     width: 150px;
@@ -19,30 +20,28 @@ header h1 {
     font-family: 'Expletus Sans', sans-serif;
     font-weight: 600;
     font-size: 1.4em;
-    margin-left: 10px;
-    padding: 10px
+    margin-left: 50px;
+    padding: 10px;
 }
-#nav {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
+.nav {
+    margin-bottom: 20px;
 }
 .button {
-    text-align: center;
+    display: flex;
     background-color: #ffff;
-    font-weight: 600;
-    cursor: pointer;
     text-decoration: none;
-    padding: 10px 15px;
+    font-weight: 600;
     border: solid thin #aeb198;
+    padding: 10px 20px 10px 20px; 
 }
 .button:hover {
-    background-color: #8b8b87;
+    background-color: #aeb198;
     color: #ffff92;
 }
-.active {
-    background-color: #0000;
-    color: #ffff;
+#home {
+    width: 60px;
+    padding-left: 40px;
+    padding-right: 60px;
 }
 main {
     background-color: #ffff92;
