@@ -2,4 +2,7 @@
     .menu li:first-child {
         display: none;
     }
+    .menu li {
+        display: block;
+    }
 }

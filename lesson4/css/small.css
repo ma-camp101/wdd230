@@ -28,6 +28,9 @@ nav {
     display: none;
     list-style-type: none;
 }
+.responsive li {
+    display: block;
+}
 .menu li:first-child {
     display: block;
 }
