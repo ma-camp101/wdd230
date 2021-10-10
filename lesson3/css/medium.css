@@ -9,12 +9,9 @@
     header h1 {
         font-size: 1em;
     }
-    .nav li {
-        display: inline-block;
-    }
-    .button {
-        width: 90px;
-        height: 40px;  
+    #nav {
+        flex-direction: row;
+        margin-bottom: 0px;
     }
     main {
         display: grid;
