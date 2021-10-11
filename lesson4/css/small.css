@@ -1,6 +1,7 @@
 body {
     background-color: #00A0FF;
     font-family: 'Roboto', 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 header {
     display: flex;
@@ -15,24 +16,35 @@ header img {
 }
 header h1 {
     font-family: 'Expletus Sans', sans-serif;
+    font-weight: 600;
     padding-left: 30px;
 }
-nav {
+.menu {
     display: flex;
-    width: 100%;
-    background-color: #000000;
-    padding-top: 10px;
-    margin-bottom: -5px;
-}
-.menu li {
-    display: none;
+    flex-direction: column;
     list-style-type: none;
-}
-.responsive li {
-    display: block;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    margin-left: -45px;
 }
 .menu li:first-child {
     display: block;
+}
+.menu li {
+    display: none;
+    background-color: #000000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.switch li {
+    display: block;
+}
+.menu li:hover {
+    background-color: #ffffff;
+}
+.menu li a:hover {
+    color: #000000;
 }
 .menu li a {
     color: #ffff;
