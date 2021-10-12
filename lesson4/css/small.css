@@ -67,7 +67,11 @@ main {
 }
 footer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: #f5f8de;
     border: solid thin #aeb198;
+}
+#current {
+    padding-left: 50px;
 }

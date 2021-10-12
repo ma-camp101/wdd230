@@ -1,4 +1,12 @@
 document.querySelector("#year").textContent = new Date().getFullYear();
 const today = new Date();
-const options = { weekday: 'long', day: 'short', month: 'medium', year: 'numeric' };
-document.querySelector("#current").textContent = today.toLocaleDateString('en-UK', options);
+/*const options = { weekday: 'long', day: 'short', month: 'medium', year: 'numeric' };
+document.getElementById("current").innerHTML = today.toLocaleDateString('en-UK', options);
+const a = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const b = ['January','February','March','April','May','June','July','August','September','October','November','December'];*/
+const day = today.getDay() + 1;
+const date = today.getDate();
+const month = today.getMonth() + 1;
+const year = today.getFullYear();
+const b = `${day}, ${date} ${month} ${year}`;
+document.querySelector("#current").innerHTML = b;
