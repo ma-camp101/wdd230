@@ -38,6 +38,15 @@ header h1 {
     background-color: #aeb198;
     color: #ffff92;
 }
+.switch:first-child {
+    background-color: #00A0FF;
+}
+.switch {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px; 
+}
 #home {
     width: 60px;
     padding-left: 40px;
