@@ -38,10 +38,10 @@ header h1 {
     background-color: #aeb198;
     color: #ffff92;
 }
-.switch:first-child {
+.button:first-child:active {
     background-color: #00A0FF;
 }
-.switch {
+.button:active {
     text-align: center;
     background-color: #000000;
     color: #ffffff;
