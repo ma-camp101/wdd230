@@ -38,10 +38,10 @@ header h1 {
     background-color: #aeb198;
     color: #ffff92;
 }
-.switch:first-child {
+.active:first-child {
     background-color: #00A0FF;
 }
-.switch {
+.active {
     text-align: center;
     background-color: #000000;
     color: #ffffff;
@@ -78,7 +78,8 @@ main {
 }
 footer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: #f5f8de;
     border: solid thin #aeb198;
 }
