@@ -13,7 +13,7 @@
         box-sizing: border-box;
         width: 100px;
         height: 100px;
-        background-image: url(bgtile.png);
+        background-image: url("images/bgtile.png");
         border: 10px solid white;
       }
     </style>
@@ -25,7 +25,19 @@
     </div>
 
     <script>
+      const div = document.querySelector('div');
+      let winWidth = window.innerWidth;
+      let winHeight = window.innerHeight;
 
+      div.style.width = winWidth + 'px';
+      div.style.height = winHeight + 'px';
+
+      window.onresize = function() {
+        winWidth = window.innerWidth;
+        winHeight = window.innerHeight;
+        div.style.width = winWidth + 'px';
+        div.style.height = winHeight + 'px';
+      }
     </script>
   </body>
 </html>
