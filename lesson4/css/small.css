@@ -37,9 +37,6 @@ header h1 {
     padding-bottom: 15px;
     text-align: center;
 }
-.switch li {
-    display: block;
-}
 .menu li:hover {
     background-color: #ffffff;
 }
@@ -49,6 +46,13 @@ header h1 {
 .menu li a {
     color: #ffff;
     text-decoration: none;
+}
+.switch li {
+    display: block;
+}
+.active {
+    background-color: #ffff;
+    color: #0000;
 }
 main {
     display: flex;
