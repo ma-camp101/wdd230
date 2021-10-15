@@ -47,12 +47,12 @@ header h1 {
     color: #ffff;
     text-decoration: none;
 }
-.switch li {
+.switch li a {
     display: block;
 }
 .active {
-    background-color: #ffff;
-    color: #0000;
+    background-color: rgb(101, 126, 196);
+    padding: 14px 100px 14px 100px;
 }
 main {
     display: flex;

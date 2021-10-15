@@ -11,4 +11,7 @@
     #quote {
         margin-left: 10px;
     }
+    .active {
+        padding: 14px 100px 14px 100px;
+    }
 }
