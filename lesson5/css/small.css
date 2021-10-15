@@ -18,7 +18,8 @@ header {
     align-items: center;
     width: 100vw;
     background-color: #003058;
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 70px;
 }
 main {
     display: flex;
@@ -67,6 +68,7 @@ button {
     background-color: rgb(214, 213, 213);
 }
 .listcontainer {
+    width: 250px;
 	border: 1px solid #bbb;
 	margin: 1rem;
 	padding: 1rem;

@@ -1,3 +1,14 @@
 @media only screen and (min-width: 1024px) {
-    
+    header {
+        flex-direction: row;
+    }
+    header img {
+        width: 200px;
+    }
+    header h1 {
+        font-size: 3em;
+    }
+    #quote {
+        margin-left: 10px;
+    }
 }
