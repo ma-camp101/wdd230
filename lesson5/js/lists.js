@@ -1,8 +1,9 @@
-const list = document.querySelector('ul');
-const input = document.querySelector('input');
+const list = document.querySelector('list');
+const input = document.querySelector('favchap');
 const button = document.querySelector('button');
 
-button.onclick = function() {
+button.addEventListener('click', function() { 
+
     let myItem = input.value;
     input.value = '';
 
@@ -13,12 +14,12 @@ button.onclick = function() {
     listItem.appendChild(listText);
     listText.textContent = myItem;
     listItem.appendChild(listBtn);
-    listBtn.textContent = 'Delete';
+    listBtn.textContent = '❌';
     list.appendChild(listItem);
 
     listBtn.onclick = function(e) {
         list.removeChild(listItem);
     }
 
-    input.focus();
+    input.focus(list);
 }
