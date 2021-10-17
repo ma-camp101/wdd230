@@ -10,7 +10,6 @@
         font-size: 1.3em;
         margin-left: -10px;
     }
-    
     .menu {
         flex-direction: row;
         justify-content:space-evenly;
@@ -28,6 +27,9 @@
         flex: 1 1 100%;
     }
     .active {
-        padding: 14px 50px 14px 50px;
+        padding: 14px 30px 14px 30px;
+    }
+    .hero {
+        background-image: url(images\rsz_4sebastian-unrau-9yz9us5-d0s-unsplashMedium.jpg);
     }
 }
