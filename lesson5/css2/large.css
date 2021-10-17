@@ -16,7 +16,6 @@
     }
     .hero {
         display: block;
-        background-image: url(/wdd230/lesson5/images\rsz_5sebastian-unrau-9yz9us5-d0s-unsplashLarge.jpg);
-        width: 100vw;
+        background-image: url(/lesson5/images/rsz_5sebastian-unrau-9yz9us5-d0s-unsplashLarge.jpg);
     }
 }

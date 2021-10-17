@@ -69,11 +69,12 @@ main {
     border: solid thin #aeb198;
 }
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/rsz_sebastian-unrau-9yz9us5-d0s-unsplashSmall.jpg);
+    background-image: url(/lesson5/images/rsz_sebastian-unrau-9yz9us5-d0s-unsplashSmall.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 250px;
+    width: 80vw;
+
 }
 .summary {
     display: grid;
