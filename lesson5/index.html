@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Preston Idaho Web Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Idaho page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@600&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css2/small.css">
+    <link rel="stylesheet" href="css2/medium.css">
+    <link rel="stylesheet" href="css2/large.css">
+    <script defer src="js2/dates.js"></script> 
+    <script src="js2/navigation.js"></script>
+</head>
+<body>
+    <div>
+        <p>Saturday: Preston Pancakes in the Park! Special</p>
+    </div>
+    <header>
+        <img src="images/sun.png" alt="picture of sun with clouds">
+        <section>
+            <h1>Real Weather 24</h1>
+            <i><q id="quote">The information you need, when you need it</q></i> 
+        </section>
+    </header>
+    <nav>          
+        <ul class="menu">            
+            <li class="inactive"><a onclick="switchMenu()" href="#">&#9776;</a></li>
+            <li class="inactive"><a href="#">Fish Haven</a></li>
+            <li class="inactive active"><a href="index.html">Preston</a></li>
+            <li class="inactive"><a href="#">Soda Springs</a></li>
+            <li class="inactive"><a href="#">Storm Center</a></li>
+            <li class="inactive"><a href="#">Gallery</a></li>
+       </ul> 
+    </nav>
+<main>
+    <h2>Preston Idaho</h2>
+    <!--Atribution for hero picture, Photo by <a href="https://unsplash.com/@sebastian_unrau?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sebastian Unrau</a> on <a href="https://unsplash.com/s/photos/valley-town?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
+    <div class="hero">
+        <div class="summary">
+            <h2>Weather Summary</h2><br>
+            <hr>
+            <ul class="title">
+                <li>Currently:</li>
+                <li>Temperature:</li>
+                <li>Wind Chill:</li>
+                <li>Humidity:</li>
+                <li>Wind Speed:</li>
+            </ul>
+            <ul class="temperature">
+                <li>Clear</li>
+                <li>74&#176;F</li>
+                <li>70&#176;F</li>
+                <li>0&#176;F</li>
+                <li>4&nbsp;mph</li>
+            </ul>
+        </div>
+    </div>
+    <div class="temp">5 day forecast</div><br>
+    <div class="temp">article</div><br>
+    <div class="temp">contact info</div>
+</main>
+<footer>
+    <p class="copy">&copy; <span id="year"></span> | Real Weather 24 | Idaho <br>
+    <span id="current"></span></p> 
+</footer>
+</body>
+</html>
