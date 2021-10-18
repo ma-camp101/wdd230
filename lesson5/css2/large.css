@@ -8,14 +8,17 @@
     header h1 {
         font-size: 3em;
     }
+    .fiveday {
+       margin-left: -30px;
+    }
     #quote {
         margin-left: 10px;
-    }
-    .active {
-        padding: 14px 125px 14px 125px;
     }
     .hero {
         display: block;
         background-image: url(/lesson5/images/rsz_5sebastian-unrau-9yz9us5-d0s-unsplashLarge.jpg);
+    }
+    .social {
+        margin-left:160px;
     }
 }

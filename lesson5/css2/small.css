@@ -125,7 +125,7 @@ main {
     background-color: #f5f8de;
     border: solid thin #aeb198;
     padding: 20px;
-    width: 80vw;
+    width: 70vw;
     margin-bottom: 15px;
 }
 
@@ -138,4 +138,19 @@ footer {
 }
 #current {
     padding-left: 20px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f8de;
+    border: solid thin #aeb198;
+    width: 65vw;
+    padding-left: 60PX;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+}
+.social li {
+    list-style-type: none;
 }

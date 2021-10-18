@@ -1,7 +1,7 @@
 let day = getDay();
 let event = document.querySelector("event")
 function event() {
-    if(day == 5) {
+    if(day == 1) {
         day.classList.add("show");
     }
     else { 
