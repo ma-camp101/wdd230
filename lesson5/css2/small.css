@@ -114,7 +114,21 @@ main {
 }
 .fiveday {
     display: none;
+    margin-bottom: 15px;
 }
+.article img {
+    width: 280px;
+}
+.article {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #f5f8de;
+    border: solid thin #aeb198;
+    padding: 20px;
+    width: 80vw;
+    margin-bottom: 15px;
+}
+
 footer {
     display: flex;
     flex-direction: column;

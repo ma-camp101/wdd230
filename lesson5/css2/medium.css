@@ -53,4 +53,7 @@
         width: 10vw;
         padding-left: 50px;
     }
+    .article img {
+        float: right;
+    }
 }
