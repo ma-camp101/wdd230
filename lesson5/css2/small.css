@@ -70,14 +70,6 @@ main {
     padding-bottom: 20px;
     background-color: #ffff92;
 }
-.temp {
-    width: 350px;
-    height: 80px;
-    text-align: center;
-    padding: 10px;
-    background-color: #f5f8de;
-    border: solid thin #aeb198;
-}
 .hero {
     background-image: url(/lesson5/images/rsz_sebastian-unrau-9yz9us5-d0s-unsplashSmall.jpg);
     background-size: cover;
@@ -116,6 +108,9 @@ main {
     grid-row: 2;
     list-style-type: none;
     font-weight: 600;
+}
+.fiveday {
+    display: none;
 }
 footer {
     display: flex;

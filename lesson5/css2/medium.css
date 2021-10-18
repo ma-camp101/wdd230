@@ -32,4 +32,11 @@
     .hero {
         background-image: url(/lesson5/images/rsz_4sebastian-unrau-9yz9us5-d0s-unsplashMedium.jpg);
     }
+    .fiveday {
+        display: block;
+        justify-content: center;
+    }
+    .weekly {
+        width: 50px;
+    }
 }
