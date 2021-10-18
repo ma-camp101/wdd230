@@ -70,6 +70,9 @@ main {
     padding-bottom: 20px;
     background-color: #ffff92;
 }
+#preston {
+    font-size: 3em;
+}
 .hero {
     background-image: url(/lesson5/images/rsz_sebastian-unrau-9yz9us5-d0s-unsplashSmall.jpg);
     background-size: cover;

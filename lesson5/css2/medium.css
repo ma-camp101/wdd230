@@ -33,10 +33,24 @@
         background-image: url(/lesson5/images/rsz_4sebastian-unrau-9yz9us5-d0s-unsplashMedium.jpg);
     }
     .fiveday {
-        display: block;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        align-content: center;
+        width: 80vw;
+    }
+    .fiveday h2 {
+        grid-column: 1/span 5;
+        grid-row: 1;
+        justify-self: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 2em;
     }
     .weekly {
-        width: 50px;
+        justify-items: center;
+        background-color: #f5f8de;
+        border: solid thin #aeb198;
+        width: 10vw;
+        padding-left: 50px;
     }
 }
