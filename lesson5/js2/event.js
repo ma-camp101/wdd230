@@ -1,11 +1,11 @@
+let today = new Date()
 let day = getDay();
-let event = document.querySelector("event")
 function event() {
-    if(day == 1) {
-        day.classList.add("show");
+    if(day == 2) {
+        friday = "Saturday: Preston Pancakes in the Park! 9 a.m. Saturday at the City Park.";
     }
     else { 
-        event;
+        friday = "";
     }
-     
+    document.querySelector(".event").innerHTML = friday;
 }

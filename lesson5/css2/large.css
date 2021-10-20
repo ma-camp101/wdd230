@@ -9,7 +9,7 @@
         font-size: 3em;
     }
     .fiveday {
-       margin-left: 0px;
+       margin-left: -50px;
     }
     #quote {
         margin-left: 10px;
@@ -19,6 +19,6 @@
         background-image: url(/lesson5/images/rsz_5sebastian-unrau-9yz9us5-d0s-unsplashLarge.jpg);
     }
     .social {
-        margin-left:160px;
+        margin-left:120px;
     }
 }
