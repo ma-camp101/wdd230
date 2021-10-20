@@ -27,7 +27,7 @@
         flex: 1 1 100%;
     }
     .hero {
-        background-image: url(rsz_4sebastian-unrau-9yz9us5-d0s-unsplashMedium.jpg);
+        background-image: url(/lesson5/images/rsz_4sebastian-unrau-9yz9us5-d0s-unsplashMedium.jpg);
     }
     .fiveday {
         display: grid;
