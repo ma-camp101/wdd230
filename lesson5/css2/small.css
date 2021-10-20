@@ -74,7 +74,7 @@ main {
     font-size: 3em;
 }
 .hero {
-    background-image: url(/lesson5/images/rsz_sebastian-unrau-9yz9us5-d0s-unsplashSmall.jpg);
+    background-image: url(rsz_sebastian-unrau-9yz9us5-d0s-unsplashSmall.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -120,8 +120,6 @@ main {
     width: 280px;
 }
 .article {
-    display: grid;
-    grid-template-columns: 1fr;
     background-color: #f5f8de;
     border: solid thin #aeb198;
     padding: 20px;
