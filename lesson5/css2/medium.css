@@ -26,8 +26,19 @@
         display: block;
         flex: 1 1 100%;
     }
-    .hero {
-        background-image: url(/lesson5/images/rsz_4sebastian-unrau-9yz9us5-d0s-unsplashMedium.jpg);
+    #small {
+        display: none;
+    }
+    #medium {
+       display: block;
+       width: 80vw;
+    }
+    #large {
+        display: none;
+    }
+    .summary {
+        margin: -190px;
+        margin-left: 30px;
     }
     .fiveday {
         display: grid;
@@ -35,6 +46,7 @@
         align-content: center;
         width: 70vw;
        margin-left: -90px;
+       margin-top: 180px;
     }
     .fiveday h2 {
         grid-column: 1/span 5;

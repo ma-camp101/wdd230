@@ -10,13 +10,20 @@
     }
     .fiveday {
        margin-left: -50px;
+       margin-top: 250px;
     }
     #quote {
         margin-left: 10px;
     }
-    .hero {
+    #medium {
+        display: none;
+    }
+    #large {
         display: block;
-        background-image: url(/lesson5/images/rsz_5sebastian-unrau-9yz9us5-d0s-unsplashLarge.jpg);
+        width: 80vw;
+    }
+    .summary {
+        margin-top: -250px;
     }
     .social {
         margin-left:120px;

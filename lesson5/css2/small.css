@@ -74,13 +74,21 @@ main {
     font-size: 3em;
 }
 .hero {
-    background-image: url(/lesson5/images/rsz_sebastian-unrau-9yz9us5-d0s-unsplashSmall.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 80vw;
-    border: solid thin #1d4861;
-    margin-bottom: 15px;
+}
+#small {
+    display: block;
+    width: 80vw;
+    position: relative;
+}
+#medium {
+    display: none;
+}
+#large {
+    display: none;
 }
 .summary {
     display: grid;
@@ -88,7 +96,7 @@ main {
     width: 250px;
     position: relative;
     margin-left: 20px;
-    margin-top: 10PX;
+    margin-top: -150PX;
     background-color: #00A0FF90;
     border: solid thin #1d4861;
     border-radius: 5px;
@@ -125,6 +133,7 @@ main {
     padding: 20px;
     width: 70vw;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 footer {
