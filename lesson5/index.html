@@ -14,12 +14,12 @@
     <link rel="stylesheet" href="css2/medium.css">
     <link rel="stylesheet" href="css2/large.css">
     <script defer src="js2/dates.js"></script> 
-    <script src='js2/event.js'></script>
+    <script defer src="js2/event.js"></script>
     <script src="js2/navigation.js"></script>
 </head>
 <body>
-    <div onload="function event()">
-        <div class="event"></div>
+    <div class="special" onload="function event()">
+        <div id="event"></div>
     </div>
     <header>
         <img src="images/sun.png" alt="picture of sun with clouds">
@@ -40,7 +40,6 @@
     </nav>
 <main>
     <h2 id="preston">Preston Idaho</h2>
-    <!--Atribution for hero picture, Photo by <a href="https://unsplash.com/@sebastian_unrau?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sebastian Unrau</a> on <a href="https://unsplash.com/s/photos/valley-town?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
     <section class="hero">
         <img id="small" src="images\rsz_sebastian-unrau-9yz9us5-d0s-unsplashSmall.jpg" alt="hero image small">
         <img id="medium" src="images\rsz_4sebastian-unrau-9yz9us5-d0s-unsplashMedium.jpg" alt="hero image medium">
@@ -92,7 +91,6 @@
         </section>
     </section>
     <section class="article">
-        <!-- Photo by <a href="https://unsplash.com/@masondahl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mason Dahl</a> on <a href="https://unsplash.com/s/photos/picnics?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
         <img src="images/rsz_3mason-dahl--7axxbzekde-unsplash.jpg" alt="picnic in the park">
         <h3>The Park is the Place to be!</h3>
         <p>by Mike Camp</p>
@@ -119,7 +117,7 @@
 </main>
 <footer>
     <p class="copy">&copy; <span id="year"></span> | Real Weather 24 | Idaho <br>
-    <span id="current"></span></p>
+    <span id="current"></span></p> | <a href="attribition.html">Attribution</a>
 </footer>
 </body>
 </html>
