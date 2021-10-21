@@ -9,7 +9,7 @@
         font-size: 3em;
     }
     .fiveday {
-       margin-left: -50px;
+       margin-left: 0px;
        margin-top: 250px;
     }
     #quote {
@@ -26,6 +26,6 @@
         margin-top: -250px;
     }
     .social {
-        margin-left:120px;
+        margin-left:250px;
     }
 }
