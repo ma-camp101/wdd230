@@ -4,7 +4,9 @@ body {
     font-weight: 400;
 }
 #event {
-    display: block;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 .show {
     display: flex;
