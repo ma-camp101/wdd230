@@ -1,11 +1,22 @@
 let today = new Date()
 let day = today.getDay();
 function event() {
-    let message = document.querySelector("special");
-    if(day == 5) {
-        message.classList.toggle("reveal");
+    if(day == 4) {
+        document.getElementsByClassName("special").classList.add("reveal");
     }
     else { 
-        message.classList.toggle("special");
+        document.getElementById("special").classList.remove("reveal");
     }
 }
+// const today = new Date(); 
+// const weekday = parseInt(today.getDay());  
+// function hideMessage() {     
+//     if (weekday == 5) {        
+//         document.getElementById('fridayMessage').classList.remove("hide");
+//     }     
+//     else {
+//         document.getElementById('fridayMessage').classList.add("hide");
+//     }
+// }
+
+// document.getElementById('weekday').textContent = weekday;

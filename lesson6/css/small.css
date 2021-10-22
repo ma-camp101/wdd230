@@ -3,9 +3,6 @@ body {
     font-family: 'Roboto', 'Open Sans', sans-serif;
     font-weight: 400;
 }
-.special {
-    display: none;
-}
 .reveal {
     display: flex;
     font-size: 2em;
