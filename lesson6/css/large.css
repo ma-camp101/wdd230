@@ -15,13 +15,6 @@
     #quote {
         margin-left: 10px;
     }
-    #medium {
-        display: none;
-    }
-    #large {
-        display: block;
-        width: 80vw;
-    }
     .summary {
         margin-top: -250px;
     }

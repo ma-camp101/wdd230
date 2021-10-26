@@ -78,21 +78,9 @@ main {
     font-size: 3em;
 }
 .hero {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 80vw;
-}
-#small {
     display: block;
-    width: 80vw;
-    position: relative;
-}
-#medium {
-    display: none;
-}
-#large {
-    display: none;
+    width: 96%;
+    margin: 0 2%;
 }
 .summary {
     display: grid;

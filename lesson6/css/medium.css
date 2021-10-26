@@ -26,16 +26,6 @@
         display: block;
         flex: 1 1 100%;
     }
-    #small {
-        display: none;
-    }
-    #medium {
-       display: block;
-       width: 80vw;
-    }
-    #large {
-        display: none;
-    }
     .summary {
         margin: -190px;
         margin-left: 30px;

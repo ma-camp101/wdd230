@@ -41,9 +41,12 @@
 <main>
     <h2 id="preston">Preston Idaho</h2>
     <section class="hero">
-        <img id="small" src="images\rsz_sebastian-unrau-9yz9us5-d0s-unsplashSmall.jpg" alt="hero image small">
-        <img id="medium" src="images\rsz_4sebastian-unrau-9yz9us5-d0s-unsplashMedium.jpg" alt="hero image medium">
-        <img id="large" src="images\rsz_5sebastian-unrau-9yz9us5-d0s-unsplashLarge.jpg" alt="hero image large">
+       <picture>
+           <source media="(max-width:400px)" srcset="images\rsz_wdd230_image_franklinoriginal400.jpg">
+           <source media="(max-width:800px)" srcset="images\rsz_1wdd230_image_franklinoriginal800.jpg">
+           <source media="(max-width:1024px)" srcset="images\rsz_3wdd230_image_franklinoriginal1024.jpg">
+           <img src="" alt="images\wdd230_image_franklinOriginal (1).jpeg" alt="hero">
+       </picture>
         <div class="summary">
             <h2>Weather Summary</h2><br>
             <ul class="title">
