@@ -60,10 +60,10 @@ header h1 {
     color: #000000;
     background-color: #ffffff;
 }
-.switch {
+.switch li {
     display: none;
 }
-.switch:first-child {
+.switch li:first-child {
     display: block;
 }
 .active {

@@ -41,31 +41,35 @@ header h1 {
     margin-bottom: -3px;
     margin-left: -45px;
 }
-.menu li:first-child {
+.menu li a:first-child {
     display: block;
 }
 .inactive {
     display: none;
     background-color: #000000;
+    color: #ffff;
+    text-decoration: none;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
 }
 .inactive:hover {
+    color: #000000;
     background-color: #ffffff;
 }
-.inactive a:hover {
-    color: #000000;
-}
-.inactive a {
-    color: #ffff;
-    text-decoration: none;
-}
 .switch li {
+    display: none;
+}
+.switch li:first-child {
     display: block;
 }
 .active {
     background-color: rgb(101, 126, 196);
+    color: #ffff;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
 }
 main {
     display: flex;
