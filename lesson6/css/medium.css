@@ -27,7 +27,7 @@
         flex: 1 1 100%;
     }
     .summary {
-        margin: -190px;
+        margin: -300px;
         margin-left: 30px;
     }
     .fiveday {
@@ -36,7 +36,7 @@
         align-content: center;
         width: 70vw;
        margin-left: -90px;
-       margin-top: 180px;
+       margin-top: 400px;
     }
     .fiveday h2 {
         grid-column: 1/span 5;

@@ -82,6 +82,9 @@ main {
     width: 96%;
     margin: 0 2%;
 }
+.hero img {
+    width: 100%;
+}
 .summary {
     display: grid;
     grid-template-columns: 1fr 1fr;
