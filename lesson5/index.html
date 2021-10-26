@@ -13,9 +13,6 @@
     <link rel="stylesheet" href="css2/small.css">
     <link rel="stylesheet" href="css2/medium.css">
     <link rel="stylesheet" href="css2/large.css">
-    <script defer src="js2/dates.js"></script> 
-    <script defer src="js2/event.js"></script>
-    <script defer src="js2/navigation.js"></script>
 </head>
 <body>
     <div class="special" onload="eventShow()">
@@ -30,20 +27,20 @@
     </header>
     <nav>          
         <ul class="menu">            
-            <li><a class="inactive" onclick="switchMenu()" href="#">&#9776;</a></li>
-            <li><a class="inactive" href="#">Fish Haven</a></li>
-            <li><a class="active" href="index.html">Preston</a></li>
-            <li><a class="inactive" href="#">Soda Springs</a></li>
-            <li><a class="inactive" href="#">Storm Center</a></li>
-            <li><a class="inactive" href="#">Gallery</a></li>
+            <li><a class="listItem" onclick="switchMenu()" href="#">&#9776;</a></li>
+            <li><a class="listItem" href="#">Fish Haven</a></li>
+            <li><a class="listItem active" href="index.html">Preston</a></li>
+            <li><a class="listItem" href="#">Soda Springs</a></li>
+            <li><a class="listItem" href="#">Storm Center</a></li>
+            <li><a class="listItem" href="#">Gallery</a></li>
        </ul> 
     </nav>
 <main>
     <h2 id="preston">Preston Idaho</h2>
     <section class="hero">
-        <img id="small" src="images\rsz_sebastian-unrau-9yz9us5-d0s-unsplashSmall.jpg" alt="hero image small">
-        <img id="medium" src="images\rsz_4sebastian-unrau-9yz9us5-d0s-unsplashMedium.jpg" alt="hero image medium">
-        <img id="large" src="images\rsz_5sebastian-unrau-9yz9us5-d0s-unsplashLarge.jpg" alt="hero image large">
+        <img class="small" src="images\rsz_sebastian-unrau-9yz9us5-d0s-unsplashSmall.jpg" alt="hero image small">
+        <img class="medium" src="images\rsz_4sebastian-unrau-9yz9us5-d0s-unsplashMedium.jpg" alt="hero image medium">
+        <img class="large" src="images\rsz_5sebastian-unrau-9yz9us5-d0s-unsplashLarge.jpg" alt="hero image large">
         <div class="summary">
             <h2>Weather Summary</h2><br>
             <ul class="title">
@@ -119,5 +116,8 @@
     <p class="copy">&copy; <span id="year"></span> | Real Weather 24 | Idaho <br>
     <span id="current"></span></p> | <a href="attribition.html">Attribution</a>
 </footer>
+<script src="js2/dates.js"></script> 
+<script src="js2/event.js"></script>
+<script src="js2/navigation.js"></script>
 </body>
 </html>

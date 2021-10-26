@@ -15,10 +15,10 @@
     #quote {
         margin-left: 10px;
     }
-    #medium {
+    .medium {
         display: none;
     }
-    #large {
+    .large {
         display: block;
         width: 80vw;
     }

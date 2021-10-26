@@ -5,6 +5,6 @@ function eventShow() {
         document.getElementsByClassName("special").classList.add("reveal");
     }
     else { 
-        document.getElementById("special").classList.remove("reveal");
+        document.getElementsByClassName("special").classList.remove("reveal");
     }
 }

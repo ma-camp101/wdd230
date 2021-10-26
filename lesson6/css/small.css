@@ -41,7 +41,7 @@ header h1 {
 .menu li a:first-child {
     display: block;
 }
-.inactive {
+.listItem {
     display: none;
     background-color: #000000;
     color: #ffff;
@@ -50,14 +50,14 @@ header h1 {
     padding-bottom: 15px;
     text-align: center;
 }
-.inactive:hover {
+.listItem:hover {
     color: #000000;
     background-color: #ffffff;
 }
-.switch li {
+.hide li {
     display: none;
 }
-.switch li:first-child {
+.hide li:first-child {
     display: block;
 }
 .active {
