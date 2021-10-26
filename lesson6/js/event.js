@@ -1,7 +1,7 @@
 let today = new Date()
 let day = today.getDay();
-function event() {
-    if(day == 4) {
+function eventShow() {
+    if(day == 1) {
         document.getElementsByClassName("special").classList.add("reveal");
     }
     else { 

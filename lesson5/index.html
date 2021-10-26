@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="css2/large.css">
     <script defer src="js2/dates.js"></script> 
     <script defer src="js2/event.js"></script>
-    <script src="js2/navigation.js"></script>
+    <script defer src="js2/navigation.js"></script>
 </head>
 <body>
-    <div class="special" onload="function event()">
+    <div class="special" onload="eventShow()">
         <p><i>Saturday: Preston Pancakes in the Park! 9 a.m. Saturday at the City Park.</i></p>
     </div>
     <header>
@@ -30,12 +30,12 @@
     </header>
     <nav>          
         <ul class="menu">            
-            <li class="inactive"><a onclick="switchMenu()" href="#">&#9776;</a></li>
-            <li class="inactive"><a href="#">Fish Haven</a></li>
-            <li class="inactive active"><a href="index.html">Preston</a></li>
-            <li class="inactive"><a href="#">Soda Springs</a></li>
-            <li class="inactive"><a href="#">Storm Center</a></li>
-            <li class="inactive"><a href="#">Gallery</a></li>
+            <li><a class="inactive" onclick="switchMenu()" href="#">&#9776;</a></li>
+            <li><a class="inactive" href="#">Fish Haven</a></li>
+            <li><a class="active" href="index.html">Preston</a></li>
+            <li><a class="inactive" href="#">Soda Springs</a></li>
+            <li><a class="inactive" href="#">Storm Center</a></li>
+            <li><a class="inactive" href="#">Gallery</a></li>
        </ul> 
     </nav>
 <main>
