@@ -1,11 +1,10 @@
 let today = new Date()
 let day = today.getDay();
-function event() {
-    let message = document.querySelector("special");
-    if(day == 5) {
-        message.classList.toggle("reveal");
+function eventShow() {
+    if(day == 1) {
+        document.getElementsByClassName("special").classList.add("reveal");
     }
     else { 
-        message.classList.toggle("special");
+        document.getElementById("special").classList.remove("reveal");
     }
 }
