@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/large.css">
 </head>
 <body>
-    <div class="special" onload="eventShow()">
+    <div class="special">
         <p id="event"><i>Saturday: Preston Pancakes in the Park! 9 a.m. Saturday at the City Park.</i></p>
     </div>
     <header>
@@ -50,10 +50,10 @@
                 <li>Humidity:</li>
                 <li>Wind Speed:</li>
             </ul>
-            <ul class="temperature" onload="windChill()">
+            <ul class="temperature">
                 <li>Clear</li>
                 <li><span id="temp">49</span>&#176;F</li>
-                <li><span id="output">#</span></li>
+                <li><span id="output"></span></li>
                 <li>0&#176;F</li>
                 <li><span id="wind">5</span>&nbsp;mph</li>
             </ul>
@@ -119,6 +119,7 @@
 <script src="js/dates.js"></script> 
 <script src="js/event.js"></script>
 <script src="js/navigation.js"></script>
+<script src="js/windchill.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script> WebFont.load({google: {families: ["Expletus Sans", "Roboto", "Open Sans", "sans-serif"] }}); </script>
 </body>
