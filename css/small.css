@@ -14,6 +14,9 @@ header h1 {
 header img {
     padding-top: 10px;
 }
+.schoollink, .lessons li a {
+    text-decoration: none;
+}
 main  ul {
     list-style: none;
     font-size: 18px;
