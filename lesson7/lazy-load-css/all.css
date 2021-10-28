@@ -3,9 +3,15 @@ body {
     grid-template-columns: 1fr;
     grid-gap: 10px;
     font-family: "Roboto", "Open Sans", sans-serif;
+    font-weight: 400;
     background-color: beige;
 }
 h1 {
     font-family: "Lobster", fantasy;
+    font-weight: 700;
     color: navy;
+    justify-self: center;
+}
+picture {
+    justify-self: center;
 }
