@@ -1,0 +1,11 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    background-color: beige;
+}
+h1 {
+    font-family: "Lobster", fantasy;
+    color: navy;
+}
