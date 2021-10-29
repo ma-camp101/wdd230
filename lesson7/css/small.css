@@ -75,6 +75,11 @@ main {
     padding-bottom: 20px;
     background-color: #ffff92;
 }
+.gallerymain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #preston {
     font-size: 3em;
 }

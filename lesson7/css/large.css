@@ -12,6 +12,12 @@
        margin-left: 0px;
        margin-top: 400px;
     }
+    .gallerymain {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #galleryh2 {
+        grid-column: 1/span 3;
+    }
     #quote {
         margin-left: 10px;
     }
