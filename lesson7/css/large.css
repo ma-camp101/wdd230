@@ -18,6 +18,9 @@
     #galleryh2 {
         grid-column: 1/span 3;
     }
+    .lastVisit {
+        grid-column: 1/span 3;
+    } 
     #quote {
         margin-left: 10px;
     }

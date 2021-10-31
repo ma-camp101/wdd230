@@ -80,6 +80,14 @@ main {
     flex-direction: column;
     align-items: center;
 }
+.lastVisit {
+    background-color: #f5f5dc;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: solid thin #1d4861;
+    font-weight: 600;
+}
 .gallerymain picture img[data-src] {
         filter: blur(0.2em);
 } 
@@ -93,6 +101,7 @@ main {
     border: solid thin #1d4861;
     text-align: center;
     margin-top: -5px;
+    width: 298px;
 }
 #preston {
     font-size: 3em;
