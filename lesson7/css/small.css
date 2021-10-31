@@ -80,6 +80,20 @@ main {
     flex-direction: column;
     align-items: center;
 }
+.gallerymain picture img[data-src] {
+        filter: blur(0.2em);
+} 
+.gallerymain picture img {
+        filter: blur(0em);
+        transition: filter 2s;
+}
+.gallerymain picture p {
+    background-color: #ffffff;
+    font-weight: 600;
+    border: solid thin #1d4861;
+    text-align: center;
+    margin-top: -5px;
+}
 #preston {
     font-size: 3em;
 }
