@@ -1,0 +1,30 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+table {
+    width: 300px;
+    border: solid thin #000;
+}
+thead {
+    background-color: #7fb9c2;
+    font-size: 36px;
+    font-weight: 700;
+    border: solid thin #000;
+}
+.heading {
+    background-color: #628ca6;
+    font-weight: 700;
+    border: solid thin #000;
+}
+.odd {
+    background-color: #e7f0ed;
+    border: solid thin #000;
+}
+.even {
+    background-color: #e7ffed;
+    border: solid thin #000;
+}
+tfoot, #goalmet {
+    background-color: #628ca6;
+    border: solid thin #000;
+}
