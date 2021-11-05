@@ -185,3 +185,11 @@ footer {
 .social li {
     list-style-type: none;
 }
+.stormReport {
+    width: 80vw;
+    background-color: #f5f8de;
+    border: solid thin #aeb198;
+}
+.reportDiv, .reportDiv input, .reportDiv button {
+    padding: 10px;
+}
