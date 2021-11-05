@@ -186,10 +186,18 @@ footer {
     list-style-type: none;
 }
 .stormReport {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
     width: 80vw;
     background-color: #f5f8de;
     border: solid thin #aeb198;
 }
-.reportDiv, .reportDiv input, .reportDiv button {
+.stormReport h3,.reportDiv, .reportDiv input, .reportDiv button, .reportDiv button a, .reportDiv ul li, footer #attribution {
     padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.reportDiv label, .reportDiv button {
+    font-weight: 600;
 }

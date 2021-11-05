@@ -30,4 +30,16 @@
     .social {
         margin-left:200px;
     }
+    .stormReport {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .stormReport h3 {
+        grid-column: 1/span 3;
+    }
+    .stormcomments {
+        grid-column: 2;
+    }
+    .reportButton {
+        grid-column: 1/span 3;
+    }
 }

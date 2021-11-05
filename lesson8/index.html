@@ -31,69 +31,70 @@
     </nav>
 <main>
     <h2 id="preston">The Storm Center</h2>
-    <div class="stormReport">
+    <form class="stormReport">
+        <h3><i></i>⛈️Report Weather Events Here!⛈️</i></h3>
         <div class="reportDiv">
-            <label for="name">Type Full Name</label><br>
-            <input type="text" placeholder="John Doe"><br>
+            <label for="name">Type Full Name<br><br>
+            <input type="text" minlength="5" placeholder="John Doe" name="fullname" required></label>
         </div>
         <div class="reportDiv">
-            <label for="email">email</label><br>
-            <input type="email" placeholder="mymail@gmail.com">
+            <label for="email">email<br><br>
+            <input type="email" placeholder="mymail@gmail.com" name="email"></label>
         </div>
         <div class="reportDiv">
-            <label for="phone">Phone Number</label><br>
-            <input type="tel" placeholder="555-555-5555">
+            <label for="phone">Phone Number<br><br>
+            <input type="tel" placeholder="555-555-5555" name="phone" required></label>
         </div>
         <div class="reportDiv">
-            <label for="zipcode">Zip Code</label><br>
-            <input type="number" placeholder="12345">
+            <label for="zipcode">Zip Code<br><br>
+            <input type="number" placeholder="12345" name="zipcode" required></label>
         </div>
         <div class="reportDiv">
-            <label for="date">Storm Date</label><br>
-            <input type="date">
+            <label for="date">Storm Date<br><br>
+            <input type="date" name="date"></label>
         </div>
         <div class="reportDiv">
-            <label for="type">Storm Type</label><br>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <label for="type">Storm Type<br><br>
+            <input list="types" name="type" id="type"></label>
+            <datalist id="types">
+                <option value="Flash Flood">
+                <option value="Hail">
+                <option value="Hurricane">
+                <option value="Thunderstorm">
+                <option value="Tornado">
+              </datalist>
         </div>
         <div class="reportDiv">
-            <label for="severity">Storm Severity Range 1-10</label><br>
-            <input type="range(1-10)" placeholder="10">
+            <label for="severity">Storm Severity Range 1-10<br><br>
+            <input type="range(1-10)" placeholder="10" name="severity"></label>
         </div>
         <div class="reportDiv">
-            <label for="region">Storm Region</label><br>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <label for="region">Storm Region<br><br>
+            <select name="region" id="region">
+                <option value="Select Region..." selected disabled>Select Region...</option>
+                <option value="Fish Haven">Fish Haven</option>
+                <option value="Preston">Preston</option>
+                <option value="Soda Springs">Soda Springs</option>
+            </select></label>
         </div>
         <div class="reportDiv">
-            <label for="danger">User In-Danger Level</label><br>
-            <input type="radio" name="" id=""><br>
-            <input type="radio" name="" id=""><br>
-            <input type="radio" name="" id="">
+            <label for="danger">User In-Danger Level<br><br>
+            <input class="help" type="radio" name="danger" id="yes"> 🆘Yes!<br><br>  
+            <input class="help" type="radio" name="danger" id="maybe"> ⚠️Maybe?<br><br>
+            <input class="help" type="radio" name="danger" id="no"> ✅No.</label>
         </div>
-        <div class="reportDiv">
-            <label for="usercomment">Additional Information or Comments</label><br>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+        <div class="reportDiv stormcomments">
+            <label for="usercomment">Additional Information or Comments<br><br>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea></label>
         </div>
-        <div class="reportDiv">
+        <div class="reportDiv reportButton">
             <button type="button"><a href="#">Send Report</a></button>
         </div>
-    </div>
+    </form>
 </main>
 <footer>
     <p class="copy">&copy; <span id="year"></span> | Real Weather 24 | Idaho <br>
-    <p><span id="current"></span> | <a href="attribution.html">Attribution</a></p>
+    <p><span id="current"></span> | <a id="attribution" href="attribution.html">Attribution</a></p>
 </footer>
 <script src="js/dates.js"></script> 
 <script src="js/event.js"></script>
