@@ -2,7 +2,10 @@ body {
     font-family: "Ubuntu", sans-serif;
 }
 table {
+    background-color: #a5a5a5;
     width: 300px;
+    text-align: center;
+    box-shadow: 10px 10px 10px #628ca6;
 }
 thead {
     display: table-header-group;
@@ -13,8 +16,8 @@ thead {
 }
 .heading {
     background-color: #628ca6;
+    color: #fff;
     font-weight: 700;
-    border: solid thin #000;
 }
 .odd {
     background-color: #e7f0ed;
@@ -22,9 +25,10 @@ thead {
 .even, #november {
     background-color: #e7ffed;
 }
-tfoot, #november td:nth-child(3) {
+#november td:nth-child(3) {
+    color: #fff;
     background-color: #628ca6;
 }
-table, th, td {
-    border: solid thin #000;
+tfoot {
+    background-color: #7fb9c2;
 }
