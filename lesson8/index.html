@@ -34,27 +34,27 @@
     <form class="stormReport">
         <h3><i></i>⛈️Report Weather Events Here!⛈️</i></h3>
         <div class="reportDiv">
-            <label for="name">Type Full Name<br><br>
+            <label for="name">Type Full Name<br>
             <input type="text" minlength="5" placeholder="John Doe" name="fullname" required></label>
         </div>
         <div class="reportDiv">
-            <label for="email">email<br><br>
+            <label for="email">email<br>
             <input type="email" placeholder="mymail@gmail.com" name="email"></label>
         </div>
         <div class="reportDiv">
-            <label for="phone">Phone Number<br><br>
+            <label for="phone">Phone Number<br>
             <input type="tel" placeholder="555-555-5555" name="phone" required></label>
         </div>
         <div class="reportDiv">
-            <label for="zipcode">Zip Code<br><br>
+            <label for="zipcode">Zip Code<br>
             <input type="number" placeholder="12345" name="zipcode" required></label>
         </div>
         <div class="reportDiv">
-            <label for="date">Storm Date<br><br>
+            <label for="date">Storm Date<br>
             <input type="date" name="date"></label>
         </div>
         <div class="reportDiv">
-            <label for="type">Storm Type<br><br>
+            <label for="type">Storm Type<br>
             <input list="types" name="type" id="type"></label>
             <datalist id="types">
                 <option value="Flash Flood">
@@ -65,11 +65,11 @@
               </datalist>
         </div>
         <div class="reportDiv">
-            <label for="severity">Storm Severity Range 1-10<br><br>
+            <label for="severity">Storm Severity Range 1-10<br>
             <input type="range(1-10)" placeholder="10" name="severity"></label>
         </div>
         <div class="reportDiv">
-            <label for="region">Storm Region<br><br>
+            <label for="region">Storm Region<br>
             <select name="region" id="region">
                 <option value="Select Region..." selected disabled>Select Region...</option>
                 <option value="Fish Haven">Fish Haven</option>
@@ -78,17 +78,20 @@
             </select></label>
         </div>
         <div class="reportDiv">
-            <label for="danger">User In-Danger Level<br><br>
+            <label for="danger">User In-Danger Level<br>
             <input class="help" type="radio" name="danger" id="yes"> 🆘Yes!<br><br>  
             <input class="help" type="radio" name="danger" id="maybe"> ⚠️Maybe?<br><br>
             <input class="help" type="radio" name="danger" id="no"> ✅No.</label>
         </div>
         <div class="reportDiv stormcomments">
-            <label for="usercomment">Additional Information or Comments<br><br>
-            <textarea name="comments" id="comments" cols="30" rows="10"></textarea></label>
+            <label for="usercomment">Additional Information or Comments<br>
+            <textarea name="comments" id="comments" cols="30" rows="12"></textarea></label>
+        </div>
+        <div class="stormimage">
+            <img src="images/rsz_11rsz_raychel-sanner-dydirn1ot04-unsplash.jpg" alt="Thunder Storm">
         </div>
         <div class="reportDiv reportButton">
-            <button type="button"><a href="#">Send Report</a></button>
+            <button type="button"><a href="thanks.html">Send Report</a></button>
         </div>
     </form>
 </main>
@@ -97,9 +100,7 @@
     <p><span id="current"></span> | <a id="attribution" href="attribution.html">Attribution</a></p>
 </footer>
 <script src="js/dates.js"></script> 
-<script src="js/event.js"></script>
 <script src="js/navigation.js"></script>
-<script src="js/windchill.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script> WebFont.load({google: {families: ["Expletus Sans", "Roboto", "Open Sans", "sans-serif"] }}); </script>
 </body>

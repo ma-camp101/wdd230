@@ -37,9 +37,17 @@
         grid-column: 1/span 3;
     }
     .stormcomments {
-        grid-column: 2;
+        grid-column: 1;
     }
     .reportButton {
         grid-column: 1/span 3;
+        margin-top: 10px;
+    }
+    .stormimage {
+        display: block;
+        align-self: center;
+        grid-column: 2/span 2;
+        box-shadow: 5px 5px 10px 5px #1d4861;
+        margin-top: 5px;
     }
 }

@@ -98,4 +98,7 @@
     .reportButton {
         grid-column: 1/span 2;
     }
+    .stormimage {
+        display: none;
+    }
 }

@@ -198,6 +198,16 @@ footer {
     list-style-type: none;
     text-decoration: none;
 }
+.reportDiv {
+    margin-bottom: 5px;
+}
 .reportDiv label, .reportDiv button {
+    font-weight: 600;
+}
+.stormimage {
+    display: none;
+}
+#thanks {
+    font-size: 24px;
     font-weight: 600;
 }
