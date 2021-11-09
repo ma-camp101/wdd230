@@ -15,6 +15,9 @@
     .gallerymain {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .gallerymain picture {
+        box-shadow: 10% 10% 10% #1d4861;
+    }
     #galleryh2 {
         grid-column: 1/span 3;
     }
