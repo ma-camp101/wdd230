@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Weather Gallery Web Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Gallery Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">   
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <div class="special">
+        <p id="event"><i>Saturday: Preston Pancakes in the Park! 9 a.m. Saturday at the City Park.</i></p>
+    </div>
+    <header>
+        <img src="images/sun.png" alt="picture of sun with clouds">
+        <section>
+            <h1>Real Weather 24</h1>
+            <i><q id="quote">The information you need, when you need it</q></i> 
+        </section>
+    </header>
+    <nav>          
+        <ul class="menu">            
+            <li><a class="listItem" onclick="switchMenu()" href="#">&#9776;</a></li>
+            <li><a class="listItem" href="#">Fish Haven</a></li>
+            <li><a class="listItem" href="preston.html">Preston</a></li>
+            <li><a class="listItem" href="#">Soda Springs</a></li>
+            <li><a class="listItem" href="#">Storm Center</a></li>
+            <li><a class="listItem active" href="index.html">Image Gallery</a></li>
+       </ul> 
+    </nav>
+<main>
+    <section class="gallerymain">
+        <h2 id="galleryh2">Weather Gallery</h2>
+        <div class="lastVisit">
+            <p>Thank you for visiting the weather gallery</p>
+            <p>Last visit: <span id="lastv"></span></p>
+        </div>
+        <picture>
+            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_raychel-sanner-dydirn1ot04-unsplash.jpg" alt="Thunder Storm">
+            <p>Thunder storm across a valley</p>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_artyom-lisov-d4fr5wlpv_w-unsplash.jpg" alt="Sunny Day">
+            <p>Sunny day over a farm</p>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_clayton-tblisp022pq-unsplash.jpg" alt="Clouds over Hills">
+            <p>Clouds over Hills</p>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_raimond-klavins-rxm_s9xmk-y-unsplash.jpg" alt="Rain through a Window">
+            <p>Rain through a Window</p>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_boris-stromar-gi4p7nicvni-unsplash.jpg" alt="Fog in Woods">
+            <p>Fog in Woods</p>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_jay-williams-7cetum_ptp4-unsplash.jpg" alt="Cumulus Cloud Front">
+            <p>Cumulus Cloud Front</p>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_1noaa-lyah_ffkkno-unsplash.jpg" alt="Snow">
+            <p>Deep snow in town</p>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_csaba-talaber-tsbrcuwa-gw-unsplash.jpg" alt="Fog on Water">
+            <p>Fog on Water</p>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_1rsz_de-ca-k8dtm1-tomq-unsplash.jpg" alt="Puffy Cloads">
+            <p>Cotton candy clouds</p>
+        </picture>
+</main>
+<footer>
+    <p class="copy">&copy; <span id="year"></span> | Real Weather 24 | Idaho <br>
+    <p><span id="current"></span> | <a href="attribution.html">Attribution</a></p>
+</footer>
+<script src="js/gallery.js"></script>
+<script src="js/dates.js"></script> 
+<script src="js/daysbetween.js"></script>
+<script src="js/navigation.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script> WebFont.load({google: {families: ["Expletus Sans", "Roboto", "Open Sans", "sans-serif"] }}); </script>
+</body>
+</html>

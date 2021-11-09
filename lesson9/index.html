@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Preston Idaho Web Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Idaho page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">   
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <img src="images/sun.png" alt="picture of sun with clouds">
+        <section>
+            <h1>Real Weather 24</h1>
+            <i><q id="quote">The information you need, when you need it</q></i> 
+        </section>
+    </header>
+    <nav>          
+        <ul class="menu">            
+            <li><a class="listItem" onclick="switchMenu()" href="#">&#9776;</a></li>
+            <li><a class="listItem" href="#">Fish Haven</a></li>
+            <li><a class="listItem active" href="preston.html">Preston</a></li>
+            <li><a class="listItem" href="#">Soda Springs</a></li>
+            <li><a class="listItem" href="#">Storm Center</a></li>
+            <li><a class="listItem" href="index.html">Image Gallery</a></li>
+       </ul> 
+    </nav>
+<main>
+    <h2 id="preston">Preston Idaho</h2>
+    
+    <section class="contact">
+        <h2>Contact Information</h2>
+        <section class="address">
+        <h3>Real Weather 24</h3>
+        <p id="contact1">🧭&nbsp;234 Real Dr <br>
+            Preston, ID 12345</p>
+        <p id="contact2">☎&nbsp;555-222-1234 <br>
+        ✉&nbsp;realweather24@mysite.com</p>
+        </section>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/"><img src="images/rsz_facebook.png" alt="facebook icon"></a></li>&nbsp;
+            <li><a href="https://www.instagram.com/"><img src="images/rsz_instagram.png" alt="instagram icon"></a></li>&nbsp;
+            <li><a href="https://twitter.com/"><img src="images/rsz_1twitter.png" alt="twitter icon"></a></li>&nbsp;
+            <li><a href="https://www.youtube.com/"><img src="images/rsz_youtube.png" alt="youtube icon"></a></li>
+        </ul>
+    </section>
+</main>
+<footer>
+    <p class="copy">&copy; <span id="year"></span> | Real Weather 24 | Idaho <br>
+    <p><span id="current"></span> | <a href="attribution.html">Attribution</a></p>
+</footer>
+<script src="js/dates.js"></script> 
+<script src="js/event.js"></script>
+<script src="js/navigation.js"></script>
+<script src="js/windchill.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script> WebFont.load({google: {families: ["Expletus Sans", "Roboto", "Open Sans", "sans-serif"] }}); </script>
+</body>
+</html>
