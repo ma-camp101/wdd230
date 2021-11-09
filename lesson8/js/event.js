@@ -1,10 +1,7 @@
 let today = new Date()
 let day = today.getDay();
+let saturdayMsg = document.querySelector(".special");
+saturdayMsg.addEventListener("onload", eventShow());
 function eventShow() {
-    if(day == 1) {
-        document.getElementsByClassName("special").classList.add("reveal");
-    }
-    else { 
-        document.getElementById("special").classList.remove("reveal");
-    }
-}
+    if(day == 5) { saturdayMsg.classList.add("reveal"); }
+    else { saturdayMsg.classList.remove("reveal"); }}
