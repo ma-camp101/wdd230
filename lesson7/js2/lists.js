@@ -1,5 +1,6 @@
 let list = document.querySelector('ul');
 let input = document.querySelector('input');
+let add = document.querySelector('add');
 let count = document.querySelector('#count');
 
 let chapterslist = [];
