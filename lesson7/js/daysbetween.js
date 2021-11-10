@@ -1,7 +1,8 @@
-let millisecondsToDays = 8640000;
-let priorVisit = localStorage.getItem('lastvisit');
-let obj = new Date(priorVisit);
 function lastVisit() {
+    let today = new Date();
+    let millisecondsToDays = 8640000;
+    let priorVisit = localStorage.getItem('lastvisit');
+    let obj = new Date(priorVisit);
     if (priorVisit != '') {
         visit = ((today - obj) / millisecondsToDays).toFixed(2);
     }
