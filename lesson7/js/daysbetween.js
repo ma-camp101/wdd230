@@ -3,6 +3,7 @@ let priorVisit = localStorage.getItem('lastvisit');
 prior = document.querySelector(".lastVisit");
 prior.addEventListener("onload", lastVisit());
 function lastVisit() {
+    debugger;
     if (priorVisit != '') {
         visit = ((priorVisit - today) / millisecondsToDays).toFixed(0);
     }
