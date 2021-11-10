@@ -1,11 +1,9 @@
 let millisecondsToDays = 8640000;
 let priorVisit = localStorage.getItem('lastvisit');
-prior = document.querySelector(".lastVisit");
-prior.addEventListener("onload", lastVisit());
+let obj = new Date(priorVisit);
 function lastVisit() {
-    debugger;
     if (priorVisit != '') {
-        visit = ((priorVisit - today) / millisecondsToDays).toFixed(0);
+        visit = ((today - obj) / millisecondsToDays).toFixed(2);
     }
     else {
         visit = today + " This is your first visit. Welcome!"
@@ -13,3 +11,4 @@ function lastVisit() {
     document.getElementById("lastv").innerHTML = visit;
     localStorage.setItem('lastvisit', today);
 }
+lastVisit();
