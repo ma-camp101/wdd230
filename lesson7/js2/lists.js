@@ -4,6 +4,28 @@ let add = document.querySelector('add');
 let count = document.querySelector('#count');
 
 let chapterslist = [];
+const button = document.querySelector("button");
+
+button.addEventListener("click", function () {
+  let myItem = input.value;
+  input.value = "";
+
+  const listItem = document.createElement("li");
+  const listText = document.createElement("span");
+  const listBtn = document.createElement("button");
+
+  listItem.appendChild(listText);
+  listText.textContent = myItem;
+  listItem.appendChild(listBtn);
+  listBtn.textContent = "❌";
+  list.appendChild(listItem);
+
+  listBtn.onclick = function (e) {
+    list.removeChild(listItem);
+  };
+
+  input.focus();
+});
 
 document.addEventListener('DOMContentLoaded', () => { 
   getStoredList(); 
