@@ -14,9 +14,11 @@ table {
 thead {
     display: table-header-group;
     background-color: #7fb9c2;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 700;
-
+}
+.h1, .heading th, .odd td, .even td, #november td, tfoot tr td {
+    padding: 10px;
 }
 .heading {
     background-color: #628ca6;
@@ -35,4 +37,6 @@ thead {
 }
 tfoot {
     background-color: #7fb9c2;
+    font-size: 14px;
+    font-weight: 700;
 }
