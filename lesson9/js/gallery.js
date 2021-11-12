@@ -9,10 +9,10 @@ if('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((items, observer) => {
       items.forEach((item) => {
         if(item.isIntersecting) {
-          if(item.intersectionRatio >= 0.50) {
-            loadImages(item.target);
-            observer.unobserve(item.target);
-      }}});
+          loadImages(item.target);
+          observer.unobserve(item.target);
+        }
+      });
     });
     imagesToLoad.forEach((img) => {
       observer.observe(img);

@@ -15,9 +15,6 @@
     .gallerymain {
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .gallerymain picture {
-        box-shadow: 10% 10% 10% #1d4861;
-    }
     #galleryh2 {
         grid-column: 1/span 3;
     }
@@ -32,5 +29,25 @@
     }
     .social {
         margin-left:200px;
+    }
+    .stormReport {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .stormReport h3 {
+        grid-column: 1/span 3;
+    }
+    .stormcomments {
+        grid-column: 1;
+    }
+    .reportButton {
+        grid-column: 1/span 3;
+        margin-top: 10px;
+    }
+    .stormimage {
+        display: block;
+        align-self: center;
+        grid-column: 2/span 2;
+        box-shadow: 5px 5px 10px 5px #1d4861;
+        margin-top: 5px;
     }
 }

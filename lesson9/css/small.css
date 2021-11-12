@@ -185,3 +185,44 @@ footer {
 .social li {
     list-style-type: none;
 }
+.stormReport {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 80vw;
+    background-color: #f5f8de;
+    border: solid thin #aeb198;
+}
+.stormReport h3,.reportDiv, .reportDiv input, .reportDiv button, .reportDiv button a, .reportDiv ul li, footer #attribution {
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.reportDiv {
+    margin-bottom: 5px;
+}
+.reportDiv label, .reportDiv button {
+    font-weight: 600;
+}
+.stormimage {
+    display: none;
+}
+#thanks {
+    font-size: 24px;
+    font-weight: 600;
+}
+input:invalid {
+	background-color: #fdd;
+	color: #000;
+}
+input:valid {
+	background-color: #dfd;
+	color: #000;
+}
+input[type="radio"], input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+}
+#region {
+    padding: 10px 30px;
+}
