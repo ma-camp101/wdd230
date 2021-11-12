@@ -34,27 +34,27 @@
     <form class="stormReport">
         <h3><i></i>⛈️Report Weather Events Here!⛈️</i></h3>
         <div class="reportDiv">
-            <label for="name">Type Full Name<br>
-            <input type="text" pattern="[A-Za-z ]{5,}" placeholder="John Doe" name="fullname" required></label>
+            <label>Type Full Name<br>
+            <input type="text" pattern="[A-Za-z ]{5,}" placeholder="John Doe" name="fullname" id="name" required></label>
         </div>
         <div class="reportDiv">
-            <label for="email">email<br>
-            <input type="email" placeholder="mymail@gmail.com" name="email"></label>
+            <label>email<br>
+            <input type="email" placeholder="mymail@gmail.com" name="email" id="email"></label>
         </div>
         <div class="reportDiv">
-            <label for="phone">Phone Number<br>
-            <input type="tel" placeholder="555-555-5555" name="phone" required></label>
+            <label>Phone Number<br>
+            <input type="tel" placeholder="555-555-5555" name="phone" id="phone" required></label>
         </div>
         <div class="reportDiv">
-            <label for="zipcode">Zip Code<br>
-            <input type="number" placeholder="12345" name="zipcode" required></label>
+            <label>Zip Code<br>
+            <input type="number" placeholder="12345" name="zipcode" id="zipcode" required></label>
         </div>
         <div class="reportDiv">
-            <label for="date">Storm Date<br>
-            <input type="date" name="date"></label>
+            <label>Storm Date<br>
+            <input type="date" name="date" id="date"></label>
         </div>
         <div class="reportDiv">
-            <label for="type">Storm Type<br>
+            <label>Storm Type<br>
             <input list="types" name="type" id="type"></label>
             <datalist id="types">
                 <option value="Flash Flood">
@@ -65,11 +65,25 @@
               </datalist>
         </div>
         <div class="reportDiv">
-            <label for="severity">Storm Severity Range 1-10<br>
-            <input type="range(1-10)" placeholder="10" name="severity"></label>
+            <label class="range">Storm Severity Range (1-10)<br>
+            <input type="range" value="5" min="1" max="10" step="1" list="tickmarks" name="severity" id="severity" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+			<span id="ratingvalue">5</span></label>
+            <datalist id="tickmarks">
+                <option value="0">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+                <option value="9">
+                <option value="10">
+            </datalist>
         </div>
         <div class="reportDiv">
-            <label for="region">Storm Region<br>
+            <label>Storm Region<br>
             <select name="region" id="region">
                 <option value="Select Region..." selected disabled>Select Region...</option>
                 <option value="Fish Haven">Fish Haven</option>
@@ -78,13 +92,13 @@
             </select></label>
         </div>
         <div class="reportDiv">
-            <label for="danger">User In-Danger Level<br>
-            <input class="help" type="radio" name="danger" id="yes"> 🆘Yes!<br><br>  
-            <input class="help" type="radio" name="danger" id="maybe"> ⚠️Maybe?<br><br>
-            <input class="help" type="radio" name="danger" id="no"> ✅No.</label>
+            <label>User In-Danger Level (Select One)</label><br>
+            <input class="help" type="radio" name="danger" id="yes"><label for="yes"> 🆘Yes!</label><br><br>  
+            <input class="help" type="radio" name="danger" id="maybe"><label for="maybe"> ⚠️Maybe?</label><br><br>
+            <input class="help" type="radio" name="danger" id="no"><label for="no"> ✅No.</label>
         </div>
         <div class="reportDiv stormcomments">
-            <label for="usercomment">Additional Information or Comments<br>
+            <label>Additional Information or Comments<br>
             <textarea name="comments" id="comments" cols="30" rows="12"></textarea></label>
         </div>
         <div class="stormimage">
@@ -99,6 +113,7 @@
     <p class="copy">&copy; <span id="year"></span> | Real Weather 24 | Idaho <br>
     <p><span id="current"></span> | <a id="attribution" href="attribution.html">Attribution</a></p>
 </footer>
+<script src="js/rating.js"></script>
 <script src="js/dates.js"></script> 
 <script src="js/navigation.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
