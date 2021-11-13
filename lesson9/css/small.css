@@ -226,3 +226,18 @@ input[type="radio"], input[type="checkbox"] {
 #region {
     padding: 10px 30px;
 }
+.towns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   gap: 15px;
+    width: 300px;    
+}
+.towns section {
+    background-color: #00A0FF90;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    border: solid thin #1d4861;
+    box-shadow: 5px 5px 5px #1d4861;
+}
