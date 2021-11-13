@@ -16,9 +16,6 @@ h1 {
     border-radius: 5px 5px 5px 5px;
 }
 main {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
     padding: 20px;
     font-weight: 400;
     color: #faebd7;
@@ -35,7 +32,7 @@ main {
     justify-self: center;
     padding: 10px;
     border: solid thin #1d4861;
-    margin: 15px;
+    margin: 25px;
     box-shadow: 5px 10px 10px 5px #1d4861;
     border-radius: 5px 5px 5px 5px;
 }
