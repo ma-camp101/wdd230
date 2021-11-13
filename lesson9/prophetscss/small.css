@@ -1,20 +1,35 @@
+body {
+    font-family: "Josefin Sans", "Open Sans", "sans serif";
+    background-color: #faebd7;
+}
 header, footer {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
+    font-weight: 700;
+    color: #1d4861;
 }
-.cards {
+main {
     display: grid;
     grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 20px;
+    font-weight: 400;
+    color: #faebd7;
+}
+.cards {
+    width: 300px;
 }
 .cards section {
-    justify-content: center;
     background-color: #3986dd;
     padding: 10px;
     border: solid thin #1d4861;
     margin: 5px;
 }
+.cards section h2 {
+    font-weight: 700;
+}
 img {
-    width: 100%;
+    width: 80%;
 }
