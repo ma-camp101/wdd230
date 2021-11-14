@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Real Weather 24 Home Page">
+    <meta name="description" content="Preston Idaho Web Page">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
+    <title>Preston Idaho page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">   
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
 </head>
 <body>
+    <div class="special">
+        <p><i>Saturday: Preston Pancakes in the Park! 9 a.m. Saturday at the City Park.</i></p>
+    </div>
     <header>
         <img src="images/sun.png" alt="picture of sun with clouds">
         <section>
@@ -22,16 +25,16 @@
     <nav>          
         <ul class="menu">            
             <li><a class="listItem" onclick="switchMenu()" href="#">&#9776;</a></li>
-            <li><a class="listItem active" href="index.html">Home</a></li>
+            <li><a class="listItem" href="index.html">Home</a></li>
             <li><a class="listItem" href="fishhaven.html">Fish Haven</a></li>
             <li><a class="listItem" href="preston.html">Preston</a></li>
-            <li><a class="listItem" href="sodasprings.html">Soda Springs</a></li>
+            <li><a class="listItem active" href="sodasprings.html">Soda Springs</a></li>
             <li><a class="listItem" href="stormcenter.html">Storm Center</a></li>
             <li><a class="listItem" href="gallery.html">Image Gallery</a></li>
        </ul> 
     </nav>
 <main>
-    <h2 id="preston">Home</h2>
+    <h2 id="preston">Soda Springs Idaho</h2>
     <section class="hero">
         <picture>
             <source media="(max-width:400px)" srcset="images\rsz_sebastian-unrau-9yz9us5-d0s-unsplashSmall.jpg">
@@ -56,7 +59,34 @@
             </ul>
         </div>
     </section>
-    <div class="towns"></div>
+    <section class="fiveday">
+        <h2>5 day forecast</h2>
+        <section class="weekly">
+            <h3>Mon</h3>
+            <img src="images/rsz_partly_cloudy.png" alt="partly cloudy icon">
+            <p>67&#176;F</p>
+        </section>
+        <section class="weekly">
+            <h3>Tues</h3>
+            <img src="images/rsz_rain.png" alt="rain icon">
+           <p>71&#176;F</p>
+        </section>
+        <section class="weekly">
+            <h3>Wed</h3>
+            <img src="images/rsz_sunny.png" alt="sunny icon">
+            <p>68&#176;F</p>
+        </section>
+        <section class="weekly">
+            <h3>Thurs</h3>
+            <img src="images/rsz_sun_and_clouds.png" alt="sun and clouds icon">
+            <p>66&#176;F</p>
+        </section>
+        <section class="weekly">
+            <h3>Fri</h3>
+            <img src="images/rsz_partly_rain.png" alt="partly rain icon">
+            <p>65&#176;F</p>
+        </section>
+    </section>
     <section class="article">
         <img src="images/rsz_3mason-dahl--7axxbzekde-unsplash.jpg" alt="picnic in the park">
         <h3>The Park is the Place to be!</h3>
@@ -87,8 +117,9 @@
     <p><span id="current"></span> | <a href="attribution.html">Attribution</a></p>
 </footer>
 <script src="js/dates.js"></script> 
-<script src="js/home.js"></script>
+<script src="js/event.js"></script>
 <script src="js/navigation.js"></script>
+<script src="js/windchill.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script> WebFont.load({google: {families: ["Expletus Sans", "Roboto", "Open Sans", "sans-serif"] }}); </script>
 </body>

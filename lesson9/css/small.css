@@ -231,7 +231,8 @@ input[type="radio"], input[type="checkbox"] {
     flex-direction: row;
     justify-content: center;
    gap: 15px;
-    width: 300px;    
+    width: 300px;  
+    margin-top: 350px;  
 }
 .towns section {
     background-color: #00A0FF90;
