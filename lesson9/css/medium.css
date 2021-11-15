@@ -101,4 +101,23 @@
     .stormimage {
         display: none;
     }
+    .towns {
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 275px;
+        text-align: center;
+    }
+    .towns section {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .towns section:nth-child(even) {
+        flex-direction: row-reverse;
+        
+    }
+    
+    img {border:1px solid #000080; width: 100%; height: auto;}
+    .data {background-color:#000; color:#fff;}
 }
