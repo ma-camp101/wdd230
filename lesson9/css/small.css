@@ -228,17 +228,31 @@ input[type="radio"], input[type="checkbox"] {
 }
 .towns {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
    gap: 15px;
-    width: 300px;  
-    margin-top: 350px;  
+    width: 300px;   
 }
 .towns section {
-    background-color: #00A0FF90;
+    background-color: #00A0FF;
     margin-bottom: 20px;
     padding: 10px;
     text-align: center;
     border: solid thin #1d4861;
     box-shadow: 5px 5px 5px #1d4861;
+}
+.towns section img {
+    width: 100%;
+}
+.wfpage {
+    display: flex;
+    flex-direction: column;
+    background-color:#f5f8de;
+    width: 80vw;
+    border: solid thin #1d4861;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.wireframe {
+    margin: 10px auto;
 }
