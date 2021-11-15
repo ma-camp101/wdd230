@@ -17,7 +17,7 @@ fetch(homepageurl)
       let p3 = document.createElement('p');
       let p4 = document.createElement('p');
       let image = document.createElement('img');
-      if (town.name == "Soda Springs" || "Preston") {
+      if (town.name == "Soda Springs" || "Fish Haven" || "Preston") {
       h2.innerHTML = 
         `${town.name}`;
       towns.appendChild(h2);
@@ -33,23 +33,7 @@ fetch(homepageurl)
       p4.innerHTML =
         `<strong>Average Annual Rainfall:</strong> ${town.averageRainfall}`;
         towns.appendChild(p4);
-      } else if (town.name == "Fish Haven"){
-        p4.innerHTML =
-        `<strong>Average Annual Rainfall:</strong> ${town.averageRainfall}`;
-        towns.appendChild(p4);
-        p2.innerHTML =
-        `<strong>Town Pop.</strong> ${town.currentPopulation}`;
-      towns.appendChild(p2);
-        p1.innerHTML = 
-        `<strong>Year Founded:</strong> ${town.yearFounded}`;
-      towns.appendChild(p1);
-        p3.innerHTML = 
-        `<strong>Town Motto:</strong><br> "${town.motto}"`;
-        towns.appendChild(p3);
-        h2.innerHTML = 
-        `${town.name}`;
-      towns.appendChild(h2);
-      }
+    }
       if (town.name == "Soda Springs") {
         image.setAttribute('src', 'images/rsz_click-sluice-wu96c5xxii0-unsplash.jpg');  
         image.setAttribute('alt', `${town.name}`);

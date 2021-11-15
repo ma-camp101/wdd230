@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 980px) {
     header {
         flex-direction: row;
     }
@@ -52,5 +52,12 @@
     }
     .towns {
         flex-direction: row;
+        margin-top: 375px;
+    }
+    .towns section {
+        flex-direction: column;
+    }
+    .towns section:nth-child(even) {
+        flex-direction: column;
     }
 }
