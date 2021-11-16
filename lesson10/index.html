@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Real Weather 24 Home Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">   
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <img src="images/sun.png" alt="picture of sun with clouds">
+        <section>
+            <h1>Real Weather 24</h1>
+            <i><q id="quote">The information you need, when you need it</q></i> 
+        </section>
+    </header>
+    <nav>          
+        <ul class="menu">            
+            <li><a class="listItem" onclick="switchMenu()" href="#">&#9776;</a></li>
+            <li><a class="listItem active" href="index.html">Home</a></li>
+            <li><a class="listItem" href="fishhaven.html">Fish Haven</a></li>
+            <li><a class="listItem" href="preston.html">Preston</a></li>
+            <li><a class="listItem" href="sodasprings.html">Soda Springs</a></li>
+            <li><a class="listItem" href="stormcenter.html">Storm Center</a></li>
+            <li><a class="listItem" href="gallery.html">Image Gallery</a></li>
+       </ul> 
+    </nav>
+<main>
+    <h2 id="preston">Home</h2>
+    <section class="hero">
+        <picture>
+            <source media="(max-width:400px)" srcset="images\rsz_sebastian-unrau-9yz9us5-d0s-unsplashSmall.jpg">
+            <source media="(max-width:800px)" srcset="images\rsz_4sebastian-unrau-9yz9us5-d0s-unsplashMedium.jpg">
+            <img src="images\rsz_5sebastian-unrau-9yz9us5-d0s-unsplashLarge.jpg" alt="hero">
+        </picture>
+        <div class="summary">
+            <h2>Weather Summary</h2><br>
+            <ul class="title">
+                <li>Currently:</li>
+                <li>Temperature:</li>
+                <li>Wind Chill:</li>
+                <li>Humidity:</li>
+                <li>Wind Speed:</li>
+            </ul>
+            <ul class="temperature">
+                <li>Clear</li>
+                <li><span id="temp">65</span>&#176;F</li>
+                <li><span id="output"></span></li>
+                <li>0&#176;F</li>
+                <li><span id="wind">5</span>&nbsp;mph</li>
+            </ul>
+        </div>
+    </section>
+    <div class="towns"></div>
+    <section class="article">
+        <img src="images/rsz_3mason-dahl--7axxbzekde-unsplash.jpg" alt="picnic in the park">
+        <h3>The Park is the Place to be!</h3>
+        <p>by Mike Camp</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, accusantium dolore eveniet libero, praesentium aperiam enim vitae minima magnam ipsum totam debitis, sit sint! Nulla corrupti accusamus impedit sunt enim? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero hic ex numquam, corporis impedit dolor vitae reiciendis repudiandae corrupti eligendi nisi dicta id adipisci totam beatae! Quae officia nam assumenda.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In sint molestiae officia quis commodi necessitatibus non blanditiis laboriosam, id, vero, doloribus tempora distinctio suscipit itaque incidunt earum laudantium? Excepturi, odio! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis quibusdam corporis consectetur quam? Quo dicta voluptatibus ullam laborum deleniti ducimus quibusdam officiis repellendus, id, odio necessitatibus tempore consequuntur veniam dolorum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, ex quos nemo soluta magni nulla nihil iure. Delectus illo, nemo labore possimus a dicta, magnam, quibusdam facere deleniti minus placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus corrupti saepe molestiae animi maiores modi in suscipit a vel sapiente alias voluptates neque dolorem, recusandae incidunt tempora quisquam quis earum.</p>
+    </section>
+    <section class="contact">
+        <h2>Contact Information</h2>
+        <section class="address">
+        <h3>Real Weather 24</h3>
+        <p id="contact1">🧭&nbsp;234 Real Dr <br>
+            Preston, ID 12345</p>
+        <p id="contact2">☎&nbsp;555-222-1234 <br>
+        ✉&nbsp;realweather24@mysite.com</p>
+        </section>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/"><img src="images/rsz_facebook.png" alt="facebook icon"></a></li>&nbsp;
+            <li><a href="https://www.instagram.com/"><img src="images/rsz_instagram.png" alt="instagram icon"></a></li>&nbsp;
+            <li><a href="https://twitter.com/"><img src="images/rsz_1twitter.png" alt="twitter icon"></a></li>&nbsp;
+            <li><a href="https://www.youtube.com/"><img src="images/rsz_youtube.png" alt="youtube icon"></a></li>
+        </ul>
+    </section>
+</main>
+<footer>
+    <p class="copy">&copy; <span id="year"></span> | Real Weather 24 | Idaho <br>
+    <p><span id="current"></span> | <a href="attribution.html">Attribution</a></p>
+</footer>
+<script src="js/dates.js"></script> 
+<script src="js/home.js"></script>
+<script src="js/navigation.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script> WebFont.load({google: {families: ["Expletus Sans", "Roboto", "Open Sans", "sans-serif"] }}); </script>
+</body>
+</html>

@@ -182,9 +182,6 @@ footer {
     display: flex;
     flex-direction: row;
 }
-.social li {
-    list-style-type: none;
-}
 .stormReport {
     display: grid;
     grid-template-columns: 1fr;
@@ -193,7 +190,7 @@ footer {
     background-color: #f5f8de;
     border: solid thin #aeb198;
 }
-.stormReport h3,.reportDiv, .reportDiv input, .reportDiv button, .reportDiv button a, .reportDiv ul li, footer #attribution {
+.stormReport h3,.reportDiv, .reportDiv input, .reportDiv button, .reportDiv button a, .reportDiv ul li, footer #attribution, .social li {
     padding: 10px;
     list-style-type: none;
     text-decoration: none;
@@ -255,4 +252,9 @@ input[type="radio"], input[type="checkbox"] {
 }
 .wireframe {
     margin: 10px auto;
+}
+#severity {
+    padding: 10px 0;
+	margin: 0 15px;
+	color: #2075ff;
 }
