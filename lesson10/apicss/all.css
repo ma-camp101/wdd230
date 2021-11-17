@@ -1,0 +1,18 @@
+body {
+    display: block;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+h1 {
+    font-family: "Lobster", fantasy;
+    font-weight: 700;
+    color: darkslateblue;
+}
+p {
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+p span {
+    font-size: 1.25rem;
+}
