@@ -125,6 +125,7 @@ main {
     border: solid thin #1d4861;
     border-radius: 5px;
     box-shadow: 5px 10px 15px #00000090;
+    padding: 0;
 }
 .summary h2 {
     grid-column: 1/span 2;
