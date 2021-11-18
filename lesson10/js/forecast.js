@@ -9,9 +9,9 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject)
     windChill(jsObject)
-    document.getElementById('weatherdesc').innerHTML = `${jsObject.weather.description}`;
-    document.getElementById('temp').innerHTML = `${jsObject.main.temp}&#176;F`;
-    document.getElementById('hightemp').innerHTML = `${jsObject.main.temp_max}&#176;F`;
+    document.getElementById('weatherdesc').innerHTML = `${jsObject.weather[0].description}`;
+    document.getElementById('temp').innerHTML = `${jsObject.main.temp.toFixed(1)}&#176;F`;
+    document.getElementById('hightemp').innerHTML = `${jsObject.main.temp_max.toFixed(1)}&#176;F`;
     document.getElementById('humidity').innerHTML = `${jsObject.main.humidity}%`;
-    document.getElementById('wind').innerHTML = `${jsObject.wind.speed}mph`
+    document.getElementById('wind').innerHTML = `${jsObject.wind.speed.toFixed(1)}mph`
 });
