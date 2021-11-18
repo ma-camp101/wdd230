@@ -1,6 +1,5 @@
 windy = document.querySelector(".temperature");
 function windChill(jsObject) {
-    console.log("jsObject", jsObject)
     let tempF = parseInt(document.getElementById('temp').innerHTML);
     let speed = parseInt(document.getElementById('wind').innerHTML);
     let chill = calculateChill(tempF, speed);

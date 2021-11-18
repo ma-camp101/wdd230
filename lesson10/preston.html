@@ -42,16 +42,19 @@
             <img src="images\rsz_5sebastian-unrau-9yz9us5-d0s-unsplashLarge.jpg" alt="hero">
         </picture>
         <div class="summary">
-            <h2>Weather Summary</h2><br>
+            <h2>Weather Summary</h2>
+            <img src="" alt="" id="currenticon">
             <ul class="title">
-                <li>Currently:</li>
+                <li>Current Conditions:</li>
+                <li>Current Temp:</li>
                 <li>High:</li>
                 <li>Wind Chill:</li>
                 <li>Humidity:</li>
                 <li>Wind Speed:</li>
             </ul>
             <ul class="temperature">
-                <li><span id="weatherdesc"></span>&nbsp;<span id="temp"></span></li>
+                <li><span id="weatherdesc"></span></li>
+                <li><span id="temp"></span></li>
                 <li><span id="hightemp"></span></li>
                 <li><span id="output"></span></li>
                 <li><span id="humidity"></span></li>
@@ -61,31 +64,14 @@
     </section>
     <section class="fiveday">
         <h2>5 day forecast</h2>
-        <section class="weekly">
-            <h3>Mon</h3>
-            <img src="images/rsz_partly_cloudy.png" alt="partly cloudy icon">
-            <p>67&#176;F</p>
-        </section>
-        <section class="weekly">
-            <h3>Tues</h3>
-            <img src="images/rsz_rain.png" alt="rain icon">
-           <p>71&#176;F</p>
-        </section>
-        <section class="weekly">
-            <h3>Wed</h3>
-            <img src="images/rsz_sunny.png" alt="sunny icon">
-            <p>68&#176;F</p>
-        </section>
-        <section class="weekly">
-            <h3>Thurs</h3>
-            <img src="images/rsz_sun_and_clouds.png" alt="sun and clouds icon">
-            <p>66&#176;F</p>
-        </section>
-        <section class="weekly">
-            <h3>Fri</h3>
-            <img src="images/rsz_partly_rain.png" alt="partly rain icon">
-            <p>65&#176;F</p>
-        </section>
+        <ul class="days">
+            <li><span id="dayofweek1"></span>:&nbsp;<span id="forecast1"></span>&#176;F</li>
+            <li><span id="dayofweek2"></span>:&nbsp;<span id="forecast2"></span>&#176;F</li>
+            <li><span id="dayofweek3"></span>:&nbsp;<span id="forecast3"></span>&#176;F</li>
+            <li><span id="dayofweek4"></span>:&nbsp;<span id="forecast4"></span>&#176;F</li>
+            <li><span id="dayofweek5"></span>:&nbsp;<span id="forecast5"></span>&#176;F</li>
+        </ul>
+    
     </section>
     <section class="article">
         <img src="images/rsz_3mason-dahl--7axxbzekde-unsplash.jpg" alt="picnic in the park">
