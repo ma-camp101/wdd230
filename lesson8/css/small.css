@@ -207,6 +207,9 @@ footer {
 .stormimage {
     display: none;
 }
+#severity {
+    padding: 0;
+}
 #thanks {
     font-size: 24px;
     font-weight: 600;
