@@ -50,8 +50,8 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         align-content: center;
         grid-gap: 10px;
-        width: 70vw;
-       margin-left: -90px;
+        width: 80vw;
+       margin-left: -150px;
        margin-top: 300px;
     }
     .fiveday h2 {
@@ -65,6 +65,18 @@
     .fiveday p {
         background-color: #f5f8de;
         border: solid thin #aeb198;
+        width: 100px;
+        padding:30px;
+        margin-left: 20px;
+    }
+    #dayofweek1, #dayofweek2, #dayofweek3, #dayofweek4, #dayofweek5 {
+        font-family:  'Expletus Sans', 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 1.25rem;
+    }
+    #forecast1, #forecast2, #forecast3, #forecast4, #forecast5 {
+        font-weight: 600;
+        font-size: 1.05rem;
     }
     #day1 {
         grid-column: 1;
