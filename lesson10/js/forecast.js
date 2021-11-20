@@ -17,15 +17,26 @@ fetch(apiURL)
     document.getElementById('hightemp').innerHTML = `${jsObject.main.temp_max.toFixed(1)}&#176;F`;
     document.getElementById('humidity').innerHTML = `${jsObject.main.humidity}%`;
     document.getElementById('wind').innerHTML = `${jsObject.wind.speed.toFixed(1)}mph`;
-    const sixpm = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
-    sixpm.forEach(forecast => {
-      let day = 0;
-      let thedate = new Date(forecast.dt_txt);
-      const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-      document.querySelector(`#dayofweek${day + 1}`).innerHTML = weekdays[thedate.getDay()];
-      document.querySelector(`#icon${day + 1}`).setAttribute('src', imagesrc);
-      document.querySelector(`#icon${day + 1}`).setAttribute('alt', desc);
-      document.querySelector(`#forecast${day + 1}`).innerHTML = forecast.main.temp;
-      day++
-    }); 
-  });
+
+    const api2URL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=5b1c85008a1ef7a21d5e39aa1f79fd44"
+fetch(api2URL)
+  .then((response) => {
+    if (!response.ok) {
+      throw Error(response.statusText);
+    } else {
+    return response.json();
+    }})
+    .then((jsObject) => {
+      const sixpm = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+      let day = 1;
+      sixpm.forEach(forecast => {
+        let thedate = new Date(forecast.dt_txt);
+        const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        document.querySelector(`#dayofweek${day}`).innerHTML = weekdays[thedate.getDay()];
+        document.querySelector(`#icon${day}`).setAttribute('src', imagesrc);
+        document.querySelector(`#icon${day}`).setAttribute('alt', desc);
+        document.querySelector(`#forecast${day}`).innerHTML = forecast.main.temp;
+        day++;
+    })
+  }); 
+});

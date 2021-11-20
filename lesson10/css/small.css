@@ -159,19 +159,15 @@ main {
 }
 .fiveday {
     display: none;
-    margin-bottom: 15px;
-    width: 90vw;
-}
-.days li {    
-    list-style-type: none;
-    padding: 30px 20px;
 }
 .article img {
     width: 280px;
+    padding: 10px;
 }
 .article {
-    background-color: #f5f8de;
+    background-color: #2075ff;
     border: solid thin #aeb198;
+    color: #ffffff;
     padding: 20px;
     width: 70vw;
     margin-bottom: 15px;

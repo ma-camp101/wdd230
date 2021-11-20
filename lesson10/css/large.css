@@ -1,4 +1,4 @@
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 1024px) {
     header {
         flex-direction: row;
     }
@@ -9,8 +9,16 @@
         font-size: 3em;
     }
     .fiveday {
-       margin-left: 0px;
-       margin-top: 400px;
+       margin-left: -200px;
+       margin-top: 250px;
+       padding: 50px;
+       width: 70vw;
+       grid-gap: 10px;
+    }
+    .fiveday p {
+        width: 100px;
+        padding:30px;
+        margin-left: 20px;
     }
     .gallerymain {
         grid-template-columns: 1fr 1fr 1fr;
