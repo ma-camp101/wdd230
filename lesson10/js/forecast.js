@@ -8,8 +8,8 @@ fetch(apiURL)
     }})
   .then((jsObject) => {
     windChill(jsObject);
-    document.getElementById('currenticon').setAttribute('src', `${jsObject.weather[0].icon}`);
-    document.getElementById('currenticon').setAttribute('alt', `${jsObject.weather[0].description}`);
+    document.getElementById('currenticon').setAttribute('src', jsObject.weather[0].icon);
+    document.getElementById('currenticon').setAttribute('alt', jsObject.weather[0].description);
     document.getElementById('weatherdesc').innerHTML = `${jsObject.weather[0].description}`;
     document.getElementById('temp').innerHTML = `${jsObject.main.temp.toFixed(1)}&#176;F`;
     document.getElementById('hightemp').innerHTML = `${jsObject.main.temp_max.toFixed(1)}&#176;F`;
@@ -32,8 +32,8 @@ fetch(api2URL)
         let thedate = new Date(forecast.dt_txt);
         const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
         document.querySelector(`#dayofweek${day}`).innerHTML = weekdays[thedate.getDay()];
-        document.querySelector(`#icon${day}`).setAttribute('src', `${forecast.weather[0].icon}`);
-        document.querySelector(`#icon${day}`).setAttribute('alt', `${forecast.weather[0].description}`);
+        document.querySelector(`#icon${day}`).setAttribute('src', forecast.weather[0].icon);
+        document.querySelector(`#icon${day}`).setAttribute('alt', forecast.weather[0].description);
         document.querySelector(`#forecast${day}`).innerHTML = forecast.main.temp;
         day++;
     })
