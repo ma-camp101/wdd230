@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Preston Idaho Web Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Idaho page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">   
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <img src="images/sun.png" alt="picture of sun with clouds">
+        <section>
+            <h1>Real Weather 24</h1>
+            <i><q id="quote">The information you need, when you need it</q></i> 
+        </section>
+    </header>
+    <nav>          
+        <ul class="menu">            
+            <li><a class="listItem" onclick="switchMenu()" href="#">&#9776;</a></li>
+            <li><a class="listItem" href="index.html">Home</a></li>
+            <li><a class="listItem" href="#">Fish Haven</a></li>
+            <li><a class="listItem" href="preston.html">Preston</a></li>
+            <li><a class="listItem" href="#">Soda Springs</a></li>
+            <li><a class="listItem active" href="stormcenter.html">Storm Center</a></li>
+            <li><a class="listItem" href="gallery.html">Image Gallery</a></li>
+       </ul> 
+    </nav>
+<main>
+    <h2 id="preston">Thank You</h2>
+    <p id="thanks"><i>We appreciate your feedback and participation. Your information will be processed quickly.</i></p>
+</main>
+<footer>
+    <p class="copy">&copy; <span id="year"></span> | Real Weather 24 | Idaho <br>
+    <p><span id="current"></span> | <a id="attribution" href="attribution.html">Attribution</a></p>
+</footer>
+<script src="js/dates.js"></script> 
+<script src="js/navigation.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script> WebFont.load({google: {families: ["Expletus Sans", "Roboto", "Open Sans", "sans-serif"] }}); </script>
+</body>
+</html>

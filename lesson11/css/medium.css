@@ -1,0 +1,151 @@
+@media only screen and (min-width: 750px) {
+    header {
+        flex-direction: row;
+        justify-content: center;
+    }
+    header img {
+        margin-left: 20px;
+    }
+    header h1 {
+        font-size: 2.5em;
+        margin-left: -10px;
+    }
+    .menu {
+        flex-direction: row;
+        justify-content:space-evenly;
+        padding-left: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+    .menu li:first-child {
+        display: none;
+    }
+    .menu li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .summary {
+        margin: -250px;
+        margin-left: 30px;
+        background-color: #00A0FF90;
+    }
+    .gallerymain {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin: auto;
+    }
+    #galleryh2 {
+        grid-column: 1/span 2;
+        justify-self: center;
+        font-size: 3em;
+    }
+    .lastVisit {
+        grid-column: 1/span 2;
+    }
+    .fiveday {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        align-content: center;
+        grid-gap: 10px;
+        width: 80vw;
+       margin-left: -150px;
+       margin-top: 300px;
+    }
+    .fiveday h2 {
+        grid-column: 1/span 5;
+        grid-row: 1;
+        justify-self: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 2em;
+    }
+    .fiveday p {
+        background-color: #f5f8de;
+        border: solid thin #aeb198;
+        width: 100px;
+        padding:30px;
+        margin-left: 20px;
+    }
+    #dayofweek1, #dayofweek2, #dayofweek3, #dayofweek4, #dayofweek5 {
+        font-family:  'Expletus Sans', 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 1.25rem;
+    }
+    #forecast1, #forecast2, #forecast3, #forecast4, #forecast5 {
+        font-weight: 600;
+        font-size: 1.05rem;
+    }
+    #day1 {
+        grid-column: 1;
+    }
+    #day2 {
+        grid-column: 2;
+    }
+    #day3 {
+        grid-column: 3;
+    }
+    #day4 {
+        grid-column: 4;
+    }
+    #day5 {
+        grid-column: 5;
+    }
+    .weekly {
+        justify-items: center;
+        background-color: #f5f8de;
+        border: solid thin #aeb198;
+        width: 10vw;
+        padding-left: 50px;
+    }
+    .article img {
+        float: right;
+    }
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 68vw;
+    }
+    .contact h2 {
+        grid-column: 1/span 2;
+        justify-self: center;
+    }
+    .address h3 {
+        font-family: 'Expletus Sans', sans-serif;
+        font-weight: 600;
+    }
+    .social {
+        flex-direction: row;
+        margin-top: 120px;
+        margin-left: 40px;
+    }
+    .stormReport {
+        grid-template-columns: 1fr 1fr;
+    }
+    .stormReport h3 {
+        grid-column: 1/span 2;
+    }
+    .reportButton {
+        grid-column: 1/span 2;
+    }
+    .stormimage {
+        display: none;
+    }
+    .towns {
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 275px;
+        text-align: center;
+    }
+    .towns section {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .towns section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+}

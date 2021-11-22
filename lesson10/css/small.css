@@ -272,6 +272,6 @@ input[type="radio"], input[type="checkbox"] {
 	margin: 0 15px;
 	color: #2075ff;
 }
-.attribution, .weatherattribution {
+.attribution, .weatherattribution, .wireframes {
     text-decoration: none;
 }

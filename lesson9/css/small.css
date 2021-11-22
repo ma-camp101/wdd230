@@ -258,3 +258,6 @@ input[type="radio"], input[type="checkbox"] {
 	margin: 0 15px;
 	color: #2075ff;
 }
+.wireframes, .attribution {
+    text-decoration: none;
+}
