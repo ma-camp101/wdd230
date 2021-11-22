@@ -196,6 +196,21 @@ footer {
     display: flex;
     flex-direction: row;
 }
+#reportstorm, #donateimage {
+    line-height: 2em;
+    width: 10em;
+    background-color: #2075ff;
+    color: #ffffff;
+    position: relative;
+    font-size: 1.5em;
+    text-decoration: none;
+    border: solid thin #ffffff;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 5px #1d4861;
+  }
+  #reportstorm:hover, #donateimage:hover {
+    background-color: #1d4861;
+  }
 .stormReport {
     display: grid;
     grid-template-columns: 1fr;
