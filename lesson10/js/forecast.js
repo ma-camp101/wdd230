@@ -7,11 +7,9 @@ fetch(apiURL)
     return response.json();
     }})
   .then((jsObject) => {
-    windChill(jsObject)
-    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
-    const desc = jsObject.weather[0].description; 
-    document.getElementById('currenticon').setAttribute('src', imagesrc);
-    document.getElementById('currenticon').setAttribute('alt', desc);
+    windChill(jsObject);
+    document.getElementById('currenticon').setAttribute('src', `${jsObject.weather[0].icon}`);
+    document.getElementById('currenticon').setAttribute('alt', `${jsObject.weather[0].description}`);
     document.getElementById('weatherdesc').innerHTML = `${jsObject.weather[0].description}`;
     document.getElementById('temp').innerHTML = `${jsObject.main.temp.toFixed(1)}&#176;F`;
     document.getElementById('hightemp').innerHTML = `${jsObject.main.temp_max.toFixed(1)}&#176;F`;
@@ -27,14 +25,15 @@ fetch(api2URL)
     return response.json();
     }})
     .then((jsObject) => {
+      console.log(jsObject);
       const sixpm = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
       let day = 1;
       sixpm.forEach(forecast => {
         let thedate = new Date(forecast.dt_txt);
         const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
         document.querySelector(`#dayofweek${day}`).innerHTML = weekdays[thedate.getDay()];
-        document.querySelector(`#icon${day}`).setAttribute('src', imagesrc);
-        document.querySelector(`#icon${day}`).setAttribute('alt', desc);
+        document.querySelector(`#icon${day}`).setAttribute('src', `${forecast.weather[0].icon}`);
+        document.querySelector(`#icon${day}`).setAttribute('alt', `${forecast.weather[0].description}`);
         document.querySelector(`#forecast${day}`).innerHTML = forecast.main.temp;
         day++;
     })
