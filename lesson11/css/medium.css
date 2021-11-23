@@ -104,7 +104,7 @@
         padding-left: 50px;
     }
     .article img {
-        float: right;
+        float: left;
     }
     .contact {
         display: grid;
