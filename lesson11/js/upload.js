@@ -1,12 +1,13 @@
 // credit for this code goes to Supun Kavinda @ 'https://soshace.com/the-ultimate-guide-to-drag-and-drop-image-uploading-with-pure-javascript/' 
 
-let dropRegion = document.getElementById("drop-region"),
+let dropRegion = document.getElementsByClassName("dropregion"),
 	imagePreviewRegion = document.getElementById("image-preview");
 
 let fakeInput = document.createElement("input");
 fakeInput.type = "file";
 fakeInput.accept = "image/*";
 fakeInput.multiple = true;
+
 dropRegion.addEventListener('click', function() {
 	fakeInput.click();
 });
@@ -38,7 +39,6 @@ function handleDrop(e) {
 		
 	} else {
 
-		// check for img
 		let html = dt.getData('text/html'),
 	        match = html && /\bsrc="?([^"\s]+)"?\s*/.exec(html),
 	        url = match && match[1];
@@ -52,7 +52,6 @@ function handleDrop(e) {
 
 	}
 
-
 	function uploadImageFromURL(url) {
 		let img = new Image;
         let c = document.createElement("canvas");
@@ -64,7 +63,7 @@ function handleDrop(e) {
             ctx.drawImage(this, 0, 0);       
             c.toBlob(function(blob) {       
 
-            	// call our main function
+            	
                 handleFiles( [blob] );
 
             }, "image/png");
