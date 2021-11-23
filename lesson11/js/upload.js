@@ -79,8 +79,6 @@ function handleDrop(e) {
 
 dropRegion.addEventListener('drop', handleDrop, false);
 
-
-
 function handleFiles(files) {
 	for (let i = 0, len = files.length; i < len; i++) {
 		if (validateImage(files[i]))
