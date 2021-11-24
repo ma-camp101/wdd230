@@ -144,6 +144,7 @@ main {
     border: solid thin #1d4861;
     border-radius: 5px;
     box-shadow: 5px 10px 15px #00000090;
+    margin-top: 50px;
 }
 .summary h2 {
     grid-column: 1/span 2;
@@ -185,7 +186,7 @@ main {
     flex-direction: column;
     justify-content: center;
    gap: 15px;
-    width: 360px;  
+    width: 80vw;  
     margin-top: 50px; 
 }
 .events section {
@@ -195,8 +196,8 @@ main {
     margin-bottom: 20px;
     padding: 10px;
     text-align: center;
-    border: solid thin #ffffff;
-    box-shadow: 5px 5px 5px #1d4861;
+    box-shadow: 5px 5px 10px #1d4861;
+    border-radius: 5px;
 }
 .events section h2 {
     font-family: 'Expletus Sans', sans-serif;

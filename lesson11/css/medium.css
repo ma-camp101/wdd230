@@ -53,8 +53,8 @@
         grid-template-columns: 100px 100px 100px 100px 100px 100px;
         grid-gap: 10px;
         text-align: center;
-       margin-top: 300px;
        width: 750px;
+       margin-top: 100px;
     }
     .fiveday h2 {
         grid-column: 1/span 5;
@@ -68,6 +68,10 @@
         border: solid thin #aeb198;
         padding: 40px;
         box-shadow: 5px 5px 5px #1d4861;
+    }
+    .events {
+        background-color: #1d4861;
+        box-shadow: 5px 15px 40px #1d486190;
     }
     #dayofweek1, #dayofweek2, #dayofweek3, #dayofweek4, #dayofweek5 {
         font-family:  'Expletus Sans', 'Open Sans', sans-serif;
