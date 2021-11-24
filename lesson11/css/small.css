@@ -180,6 +180,28 @@ main {
 .fiveday {
     display: none;
 }
+.events {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   gap: 15px;
+    width: 360px;  
+    margin-top: 50px; 
+}
+.events section {
+    background-color: #1d4861;
+    color: #ffffff;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    border: solid thin #ffffff;
+    box-shadow: 5px 5px 5px #1d4861;
+}
+.events section h2 {
+    font-family: 'Expletus Sans', sans-serif;
+    font-weight: 600;
+}
 .article img {
     width: 280px;
     padding: 10px;
@@ -193,7 +215,6 @@ main {
     margin-bottom: 15px;
     margin-top: 15px;
 }
-
 footer {
     display: flex;
     flex-direction: column;
