@@ -72,6 +72,7 @@
     .events {
         background-color: #1d4861;
         box-shadow: 5px 15px 40px #1d486190;
+        margin-bottom: 50px;
     }
     #dayofweek1, #dayofweek2, #dayofweek3, #dayofweek4, #dayofweek5 {
         font-family:  'Expletus Sans', 'Open Sans', sans-serif;
@@ -107,6 +108,9 @@
         grid-row: 3;
         justify-content: center;
     }
+    .article {
+        margin-bottom: 50px;
+    }
     .article img {
         float: left;
     }
@@ -117,6 +121,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: 68vw;
+        margin-bottom: 50px;
     }
     .contact h2 {
         grid-column: 1/span 2;
