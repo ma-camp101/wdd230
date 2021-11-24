@@ -1,0 +1,6 @@
+@media only screen and (min-width: 1150px) {
+    .fiveday p {
+        margin-left: 40px;
+        width: 90vw;
+    }
+}
