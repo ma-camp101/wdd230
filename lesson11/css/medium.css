@@ -71,7 +71,6 @@
     }
     .events {
         background-color: #1d4861;
-        box-shadow: 5px 15px 40px #1d486190;
         margin-bottom: 50px;
     }
     #dayofweek1, #dayofweek2, #dayofweek3, #dayofweek4, #dayofweek5 {
