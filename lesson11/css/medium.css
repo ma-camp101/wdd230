@@ -71,6 +71,7 @@
         width: 100px;
         padding:30px;
         margin-left: 20px;
+        box-shadow: 5px 5px 5px #1d4861;
     }
     #dayofweek1, #dayofweek2, #dayofweek3, #dayofweek4, #dayofweek5 {
         font-family:  'Expletus Sans', 'Open Sans', sans-serif;
