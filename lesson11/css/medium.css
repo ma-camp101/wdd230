@@ -106,6 +106,9 @@
     .article img {
         float: left;
     }
+    #prestonarticle, #fishhavenarticle {
+        float: right;
+    }
     .contact {
         display: grid;
         grid-template-columns: 1fr 1fr;
