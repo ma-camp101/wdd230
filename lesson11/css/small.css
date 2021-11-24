@@ -185,7 +185,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   gap: 15px;
+    gap: 15px;
     width: 80vw;  
     margin-top: 50px; 
 }
