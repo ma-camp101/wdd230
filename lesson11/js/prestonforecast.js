@@ -10,8 +10,6 @@ fetch(apiURL)
     
   .then((jsObject) => {
 
-    windChill(jsObject);
-
     const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';
 
     document.getElementById('currenticon').setAttribute('src', `${imagesrc}`);
@@ -21,6 +19,7 @@ fetch(apiURL)
     document.getElementById('hightemp').innerHTML = `${jsObject.main.temp_max.toFixed(1)}&#176;F`;
     document.getElementById('humidity').innerHTML = `${jsObject.main.humidity}%`;
     document.getElementById('wind').innerHTML = `${jsObject.wind.speed.toFixed(1)}mph`;
+    windChill(jsObject);
 });
 
 const api2URL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=5b1c85008a1ef7a21d5e39aa1f79fd44"
