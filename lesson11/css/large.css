@@ -9,19 +9,31 @@
         font-size: 3em;
     }
     .fiveday {
-       margin-left: -200px;
-       margin-top: 250px;
-       padding: 50px;
-       width: 70vw;
-       grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        justify-content: center;
     }
-    .fiveday h2 {
-        margin-left: 250px;
-    }
-    .fiveday p {
+    #day1 {
         width: 100px;
-        padding:30px;
-        margin-left: 20px;
+        grid-column: 1;
+    }
+    #day2 {
+        width: 100px;
+        grid-column: 2;
+        margin-left: 0px;
+    }
+    #day3 {
+        width: 100px;
+        grid-column: 3;
+    }
+    #day4 {
+        width: 100px;
+        grid-column: 4;
+        grid-row: 2;
+    }
+    #day5 {
+        width: 100px;
+        grid-column: 5;
+        grid-row: 2;
     }
     .gallerymain {
         grid-template-columns: 1fr 1fr 1fr;

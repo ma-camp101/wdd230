@@ -3,4 +3,9 @@
         margin-left: 40px;
         width: 90vw;
     }
+    #day2 {
+        width: 100px;
+        grid-column: 2;
+        margin-left: 50px;
+    }
 }
