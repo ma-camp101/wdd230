@@ -61,7 +61,7 @@ header h1 {
     display: block;
 }
 .active {
-    background-color: rgb(101, 126, 196);
+    background-color: #1d4861;
     color: #ffff;
     text-decoration: none;
     padding-top: 15px;
@@ -124,7 +124,8 @@ main {
     width: 10em;
     background-color: #2075ff;
     color: #ffffff;
-    font-size: 1em;
+    font-size: 1.5em;
+    font-weight: 700;
     text-decoration: none;
     border: solid thin #ffffff;
     padding: 10px 20px;
@@ -136,14 +137,16 @@ main {
   }
 .summary {
     display: grid;
-    grid-template-columns: 51% 40%;
-    grid-gap: 20px;
+    grid-template-columns: 60% 40%;
+    grid-gap: 10px;
     width: 400px;
     position: relative;
-    background-color: #00A0FF;
+    background-color: #1d4861;
+    opacity: 90%;
+    color: #ffffff;
     border: solid thin #1d4861;
     border-radius: 5px;
-    box-shadow: 5px 10px 15px #00000090;
+    box-shadow: 5px 10px 15px #000000;
     margin-top: 50px;
 }
 .summary h2 {
@@ -207,7 +210,7 @@ main {
     padding: 10px;
 }
 .article {
-    background-color: #2075ff;
+    background-color: #1d4861;
     border: solid thin #aeb198;
     color: #ffffff;
     padding: 20px;
@@ -288,7 +291,7 @@ input[type="radio"], input[type="checkbox"] {
     margin-top: 50px; 
 }
 .towns section {
-    background-color: #00A0FF;
+    background-color: #f5f8de;
     margin-bottom: 20px;
     padding: 10px;
     text-align: center;
