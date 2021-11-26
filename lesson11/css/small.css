@@ -95,13 +95,12 @@ main {
         filter: blur(0em);
         transition: filter 2s;
 }
-.gallerymain picture p {
-    background-color: #ffffff;
-    font-weight: 600;
+.gallerymain picture {
+    background-color: #f5f5dc;
+    margin-bottom: 10px;
     border: solid thin #1d4861;
     text-align: center;
-    margin-top: -5px;
-    width: 298px;
+    padding-bottom: 5px;
 }
 #preston {
     font-size: 3em;
