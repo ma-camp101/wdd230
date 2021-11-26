@@ -351,4 +351,5 @@ input[type="radio"], input[type="checkbox"] {
 .maps {
     border: solid thin #2075ff;
     box-shadow: 5px 5px 5px #1d4861;
+    margin-left: -100px;
 }
