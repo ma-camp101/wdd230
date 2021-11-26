@@ -217,6 +217,15 @@ main {
     width: 70vw;
     margin-bottom: 15px;
     margin-top: 15px;
+    overflow-y: auto;
+    height: 500px;
+}
+.article h3 {
+    font-size: 1.5rem;
+}
+#articleattrib {
+    text-decoration: none;
+    color: #ffff92;
 }
 footer {
     display: flex;
