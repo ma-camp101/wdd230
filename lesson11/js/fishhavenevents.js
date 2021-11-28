@@ -19,6 +19,7 @@ fetch(homepageurl)
       let p1 = document.createElement('p');
       let p2 = document.createElement('p');
       let p3 = document.createElement('p');
+      let p4 = document.createElement('p');
 
         h2.innerHTML = 
           `${town.name}`;
@@ -32,6 +33,9 @@ fetch(homepageurl)
         p3.innerHTML = 
         `${town.events[2]}`;
         towns.appendChild(p3);
+        p4.innerHTML =
+        `${towns.events[3]}`;
+        towns.appendChild(p4);
       document.querySelector('div.events').appendChild(towns);
       }
     });
