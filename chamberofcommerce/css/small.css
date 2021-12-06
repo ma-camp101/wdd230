@@ -1,0 +1,31 @@
+body {
+    font-family: "Roboto", "Open Sans", "sans-serif";
+}
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #446833;
+    opacity: 90%;
+    padding: 10px 20px;
+}
+h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+#quakertown {
+    color: #C676D3;
+    font-family: "Playfair Display SC", "Lobster", "serif";
+    font-weight: 900;
+    font-style: italic;
+}
+#coc {
+    color: #ffffff;
+    font-family: "Miss Fajardose", "Corinthia", "fantasy";
+    font-weight: 400;
+    font: 2.5rem;
+}
+#motto {
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+}
