@@ -17,3 +17,8 @@
 .action {
     margin-left: 50px;
 }
+footer {
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+}

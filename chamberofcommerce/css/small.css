@@ -5,7 +5,7 @@ header {
     display: flex;
     flex-direction: column;
     background-color: #446833;
-    opacity: 90%;
+    opacity: 70%;
     padding: 10px 20px;
 }
 h1 {
@@ -17,6 +17,7 @@ h1 {
     font-family: "Playfair Display SC", "Lobster", "serif";
     font-weight: 900;
     font-style: italic;
+    font-size: 3rem;
 }
 #coc {
     color: #ffffff;
@@ -68,4 +69,28 @@ h1 {
     text-align: center;
     font-weight: 900;
     font-size: 1.25rem;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #6F99BB;
+}
+.footerinfo {
+    padding: 10px;
+}
+.address {
+    padding: 10px;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    list-style-type: none;
+    align-self: center;
+}
+.social li {
+    padding: 10px;
+}
+.social li a {
+    text-decoration: none;
 }
