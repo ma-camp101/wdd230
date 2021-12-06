@@ -22,10 +22,50 @@ h1 {
     color: #ffffff;
     font-family: "Miss Fajardose", "Corinthia", "fantasy";
     font-weight: 400;
-    font: 2.5rem;
+    font-size: 3.5rem;
 }
 #motto {
     color: #ffffff;
     text-align: center;
     margin: 0 auto;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    margin-left: -45px;
+}
+.menu li a:first-child {
+    display: block;
+}
+.listItem {
+    display: none;
+    background-color: #000000;
+    color: #ffff;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.listItem:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+.hide li {
+    display: none;
+}
+.hide li:first-child {
+    display: block;
+}
+.active {
+    background-color: #6F99BB;
+    color: #000000;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.25rem;
 }
