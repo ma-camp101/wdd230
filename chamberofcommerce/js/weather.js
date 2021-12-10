@@ -33,7 +33,7 @@ fetch(forecastURL)
     }})
 
     .then((jsObject) => {
-      const threeday = new Date(jsObject.daily[0].dt);
+      const threeday = jsObject.daily[0].dt;
       let day = 1;
 
       threeday.forEach(forecast => {
