@@ -1,9 +1,12 @@
+let img = document.querySelector(".logo");
+img.addEventListener("load", enlargeLogo);
+window.addEventListener("resize", enlargeLogo);
 function enlargeLogo() {
     let img = document.createElement("img");
-    if (media="(max-width:400px)") {
+    if (screen.width <= 400) {
         img.setAttribute('src', 'images/liberty_bell_in_quakertown_small_360px.jpg');
         img.setAttribute('alt', 'Enlarged Version of Liberty house in Quakertown Pennsylvania with replica Liberty Bell');
-    } else if (media="(max-width:800px)") {
+    } else if (screen.width <= 800 && screen.width > 400) {
         img.setAttribute('src', 'images/liberty_bell_in_quakertown_medium_700px.jpg');
         img.setAttribute('alt', 'Enlarged Version of Liberty house in Quakertown Pennsylvania with replica Liberty Bell');
     } else {

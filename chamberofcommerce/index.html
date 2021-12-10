@@ -15,7 +15,7 @@
 </head>
 <body>
     <header>
-        <a class="lightbox" onclick="enlargeLogo()"><img class="logo" src="images/rsz_liberty_bell_in_quakertown1.jpg" alt="Liberty house in Quakertown Pennsylvania with replica Liberty Bell"></a>
+        <a class="lightbox" href="#"><img class="logo" src="images/rsz_liberty_bell_in_quakertown1.jpg" alt="Liberty house in Quakertown Pennsylvania with replica Liberty Bell"></a>
         <section>
             <h1><span id="quakertown">Quakertown</span>&nbsp;<span id="coc">Chamber of Commerce</span></h1> 
             <q id="motto"><i>The Heart of Upper Bucks County!</i></q> 
@@ -38,9 +38,10 @@
     <h2 id="preston">Home</h2>
     <section class="hero">
         <picture>
-            <source media="(max-width:400px)" srcset="images/rsz_sebastian-unrau-9yz9us5-d0s-unsplashSmall.jpg">
-            <source media="(max-width:800px)" srcset="images/rsz_4sebastian-unrau-9yz9us5-d0s-unsplashMedium.jpg">
-            <img src="images/rsz_5sebastian-unrau-9yz9us5-d0s-unsplashLarge.jpg" alt="Sunrise over a valley with a fog covered town">
+            <source media="(max-width:400px)" srcset="images/andrea-merovich-_da5m7hrohe-unsplash_small_360px.jpg">
+            <source media="(max-width:800px)" srcset="images/andrea-merovich-_da5m7hrohe-unsplash_medium_760px.jpg">
+            <source media="(max-width:1024px)" srcset="images/andrea-merovich-_da5m7hrohe-unsplash_large_1000px.jpg">
+            <img src="images/andrea-merovich-_da5m7hrohe-unsplash_xlarge_1100px.jpg" alt="Dirt path along a wooden fence with trees on each side">
         </picture>
         <div class="summary">
             <h2>Weather Summary</h2>
@@ -48,7 +49,6 @@
             <ul class="title">
                 <li>Current Conditions:</li>
                 <li>Current Temp:</li>
-                <li>High:</li>
                 <li>Wind Chill:</li>
                 <li>Humidity:</li>
                 <li>Wind Speed:</li>
@@ -56,7 +56,6 @@
             <ul class="temperature">
                 <li><span id="weatherdesc"></span></li>
                 <li><span id="temp"></span></li>
-                <li><span id="hightemp"></span></li>
                 <li><span id="output"></span></li>
                 <li><span id="humidity"></span></li>
                 <li><span id="wind"></span></li>
@@ -131,6 +130,7 @@
 <script src="js/enlargelogo.js"></script>
 <script src="js/weather.js"></script>
 <script src="js/events.js"></script>
+<script src="js/windchill.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script> WebFont.load({google: {families: ["Playfair Display SC", "Miss Fajardose", "Corinthia", "Lobster", "Roboto", "Open Sans", "sans-serif"] }}); </script>
 </body>
