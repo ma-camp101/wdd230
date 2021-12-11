@@ -1,6 +1,3 @@
-let img = document.querySelector(".logo");
-img.addEventListener("load", enlargeLogo);
-window.addEventListener("resize", enlargeLogo);
 function enlargeLogo() {
     let img = document.createElement("img");
     if (screen.width <= 400) {
