@@ -2,39 +2,36 @@
     "businesses": [
         {
           "name": "Pets Plus",
-          "logo": "url(https://cdn.etailpet.com/media/petsplusnatural/logos/pplogowhitenew_L4X8l20.png)",
+          "logo": "https://cdn.etailpet.com/media/petsplusnatural/logos/pplogowhitenew_L4X8l20.png",
           "photo": "images/rsz_pets_plus.jpg",
           "summary": "Pets Plus Natural has built our business based on the fact that what your pet eats affects its health. We offer the area&rsquo;s largest selection of natural and holistic pet foods at the lowest prices. And as more of us become concerned about where and how our food is processed, we are proud to say we have the biggest variety of American-made pet foods and treats in the region. We are local and family-owned and have been serving Philadelphia area pet families since 1988. Now, in partnership with the Humane Society of the United States and numerous shelters, we have become a rescue center offering dogs, cats, puppies and kittens for adoption. Saving animals from cruelty, neglect and homelessness one new family at a time has become our key mission. Our commitment makes it possible for our partners to save more animals in need, even before a forever family steps forward. &nbsp;Adopt one, save two is how we think of this new model for rescue since every pet available for adoption has already escaped a desperate situation. These pets are vet-checked, vaccinated, and spayed or neutered.",
           "address":"117 S. West End Blvd.",
           "address2":"Quakertown, PA 18951",
           "phone": "215-536-8777",
-          "email": "url(https://ppnquakertownonline@gmail.com)"        },
-        {
-          "name": "Springfield",
-          "photo": "springfield.jpg",
-          "motto": "Where everyone is lifted.",
-          "yearFounded": 1826,
-          "currentPopulation": 17852,
-          "averageRainfall": 17,
-          "events": [
-            "January 8: Spring into Winter",
-            "April 10-20: Celebration of Life",
-            "July 31-Aug 15: Dog Days of Summer Festival"
-          ]
+          "email": "https://ppnquakertownonline@gmail.com",
+          "hours":"Monday through Saturday 10AM to 9PM and Sunday 10AM to 7PM"
         },
         {
-          "name": "Fish Haven",
+          "name": "Quaker Antique Mall",
+          "logo": "images/rsz_logo.jpg",
+          "photo": "images/rsz_quakerantiquesmall.jpg",
+          "summary": "Quaker Antique Mall, in historic Bucks County, PA, is owned and operated by Dave and Gail Snyder. They purchased the Mall in 1997 when it was just 3 years old. Since then, the Quaker Antique Mall has undergone two renovations. Gail manages the Antique Mall and oversees the day-to-day operations as well as co-ordinating advertising and special events. Dave takes care of the business end and routine maintenance. Their goal for the Quaker Antique Mall is to provide customers with a pleasant and unique shopping experience. They hope each and every customer who comes to the Quaker Antique Mall will find that special treasure he/she has been searching for, and to leave with a smile on his/her face.",
+          "address": "70 Tollgate Rd.",
+          "address2": "Quakertown, PA 18951",
+          "phone": "215-538-9445",
+          "email": "N/A",
+          "hours": "Sunday, Monday, and Thursday 10AM to 5PM and Friday and Saturday 10AM to 6PM"
+        },
+        {
+          "name": "Sunday's Deli amd Restaurant",
+          "logo": "https://sundaysdeli.com/wp-content/uploads/2020/05/favicon-150x150.png 150w",
           "photo": "fishhaven.jpg",
-          "motto": "This is Fish Heaven.",
-          "yearFounded": 1864,
-          "currentPopulation": 501,
-          "averageRainfall": 14.20,
-          "events": [
-            "April 1: How Big Was That Fish Day",
-            "May 15-30: Rush the Creek Days",
-            "July 24: Bear Lake Blunder Run",
-            "December 12: Light the Tree"
-          ]
+          "summary": "From Elafonisos, Greece to Quakertown, USA, the finest in Greek-Mediterranean specialties. Local family owned and operated restaurant featuring a variety of delicious cuisine. In business over 30 years!",
+          "address": "140 E. Broad St.",
+          "address2": "Quakertown, PA 18951",
+          "phone": "215-536-2248",
+          "email": "N/A",
+          "hours": "Everyday 7AM to 2PM"
         },
         {
           "name": "Franklin",
@@ -87,7 +84,7 @@
             "July 8-12: Napoleon Dynamite Festival",
             "November 2-4: Freedom Days"
           ]
-        }
+        },
         {
             "name": "Preston",
             "photo": "preston.jpg",
@@ -100,7 +97,19 @@
               "July 8-12: Napoleon Dynamite Festival",
               "November 2-4: Freedom Days"
             ]
+          },
+          {
+            "name": "Preston",
+            "photo": "preston.jpg",
+            "motto": "Home of Napoleon Dynamite.",
+            "yearFounded": 1866,
+            "currentPopulation": 5204,
+            "averageRainfall": 16.65,
+            "events": [
+              "March 29: Work Creek Revival",
+              "July 8-12: Napoleon Dynamite Festival",
+              "November 2-4: Freedom Days"
+            ]
           }
-  
       ]
 }
