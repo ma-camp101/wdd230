@@ -36,12 +36,24 @@
     <div class="lightbox-target" id="enlargedlogo">
         <a class="lightbox-close" href="#"></a>
     </div>
-        <h2 id="preston">The Storm Center</h2>
+        <h2 id="preston">Contact Page</h2>
+        <section class="address">
+            <p id="contact1">🧭&nbsp;234 Real Dr <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quakertown, PA 18951</p>
+            <p id="contact2">☎&nbsp;555-222-1234 <br>
+            ✉&nbsp;qtowncoc@mysite.gov</p>
+        </section>
+        <section class="googlemap">
+
+        </section>    
         <form class="stormReport">
-            <h3><i></i>⛈️Report Weather Events Here!⛈️</i></h3>
             <div class="reportDiv">
-                <label>Type Full Name<br>
-                <input type="text" pattern="[A-Za-z ]{5,}" placeholder="John Doe" name="fullname" id="name" required></label>
+                <label>Type First Name<br>
+                <input type="text" pattern="[A-Za-z ]{2,}" placeholder="John" name="firstname" id="name" required></label>
+            </div>
+            <div class="reportDiv">
+                <label>Type Last Name<br>
+                <input type="text" pattern="[A-Za-z ]{3,}" placeholder="Doe" name="lastname" id="name" required></label>
             </div>
             <div class="reportDiv">
                 <label>email<br>
@@ -51,92 +63,29 @@
                 <label>Phone Number<br>
                 <input type="tel" placeholder="555-555-5555" name="phone" id="phone" required></label>
             </div>
-            <div class="reportDiv">
-                <label>Zip Code<br>
-                <input type="number" placeholder="12345" name="zipcode" id="zipcode" required></label>
-            </div>
-            <div class="reportDiv">
-                <label>Storm Date<br>
-                <input type="date" name="date" id="date"></label>
-            </div>
-            <div class="reportDiv">
-                <label>Storm Type<br>
-                <input list="types" name="type" id="type"></label>
-                <datalist id="types">
-                    <option value="Flash Flood">
-                    <option value="Hail">
-                    <option value="Hurricane">
-                    <option value="Thunderstorm">
-                    <option value="Tornado">
-                  </datalist>
-            </div>
-            <div class="reportDiv">
-                <label class="range">Storm Severity Range (1-10)<br>
-                <input type="range" value="5" min="1" max="10" step="1" list="tickmarks" name="severity" id="severity" oninput="ratingvalue.innerText=this.value">
-                <span id="ratingvalue">5</span></label>
-                <datalist id="tickmarks">
-                    <option value="1">
-                    <option value="2">
-                    <option value="3">
-                    <option value="4">
-                    <option value="5">
-                    <option value="6">
-                    <option value="7">
-                    <option value="8">
-                    <option value="9">
-                    <option value="10">
-                </datalist>
-            </div>
-            <div class="reportDiv">
-                <label>Storm Region<br>
-                <select name="region" id="region">
-                    <option value="Select Region..." selected disabled>Select Region...</option>
-                    <option value="Fish Haven">Fish Haven</option>
-                    <option value="Preston">Preston</option>
-                    <option value="Soda Springs">Soda Springs</option>
-                </select></label>
-            </div>
-            <div class="reportDiv">
-                <label>User In-Danger Level (Select One)</label><br>
-                <input class="help" type="radio" name="danger" id="yes"><label for="yes"> 🆘Yes!</label><br><br>  
-                <input class="help" type="radio" name="danger" id="maybe"><label for="maybe"> ⚠️Maybe?</label><br><br>
-                <input class="help" type="radio" name="danger" id="no"><label for="no"> ✅No.</label>
-            </div>
             <div class="reportDiv stormcomments">
                 <label>Additional Information or Comments<br>
                 <textarea name="comments" id="comments" cols="30" rows="12"></textarea></label>
-            </div>
-            <div class="stormimage">
-                <img src="images/rsz_11rsz_raychel-sanner-dydirn1ot04-unsplash.jpg" alt="Thunder Storm over distant mountains with a valley town in the foreground">
             </div>
             <div class="reportDiv reportButton">
                 <button type="button"><a href="thanks.html">Send Report</a></button>
             </div>
         </form>
-        <section class="contact stormcontact">
-            <h2>Contact Information</h2>
-            <section class="address">
-            <h3>Real Weather 24</h3>
-            <p id="contact1">🧭&nbsp;234 Real Dr <br>
-                Preston, ID 12345</p>
-            <p id="contact2">☎&nbsp;555-222-1234 <br>
-            ✉&nbsp;realweather24@mysite.com</p>
-            </section>
-            <ul class="social">
-                <li><a href="https://www.facebook.com/"><img src="images/rsz_facebook.png" alt="facebook icon"></a></li>&nbsp;
-                <li><a href="https://www.instagram.com/"><img src="images/rsz_instagram.png" alt="instagram icon"></a></li>&nbsp;
-                <li><a href="https://twitter.com/"><img src="images/rsz_1twitter.png" alt="twitter icon"></a></li>&nbsp;
-                <li><a href="https://www.youtube.com/"><img src="images/rsz_youtube.png" alt="youtube icon"></a></li>
-            </ul>
-        </section>
     </main>
-<footer>
-    <p class="copy">&copy; <span id="year"></span> | Real Weather 24 | Idaho</p>
-    <p>Weather information provided by <a class="attribution" href="https://openweathermap.org/">OpenWeather</a></p>
-    <p>Map provided by <a class="attribution" href="https://www.google.com/maps/">Google Maps</a></p>
-    <p><span id="current"></span> | <a class="attribution" href="attribution.html">Attribution</a></p>
-</footer>
-<script src="js/dates.js"></script> 
+    <footer>
+        <div class="footerinfo">
+        <p class="copy">&copy; <span id="year"></span> | Real Weather 24 | Idaho</p>
+        <p>Weather information provided by <a class="attribution" href="https://openweathermap.org/">OpenWeather</a></p>
+        <p><span id="current"></span> | <a class="attribution" href="attribution.html">Attribution</a></p>
+        </div>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/"><img src="images/rsz_1toppngcom-facebook-logo-white-501x425.png" alt="facebook icon"></a></li>&nbsp;
+            <li><a href="https://www.instagram.com/"><img src="images/rsz_instagram.png" alt="instagram icon"></a></li>&nbsp;
+            <li><a href="https://twitter.com/"><img src="images/rsz_oblytile-metro-icons-v1-1-twitter-twitter-logo-png-clipart-thumbnail.jpg" alt="twitter icon"></a></li>&nbsp;
+            <li><a href="https://www.youtube.com/"><img src="images/rsz_white-youtube-logo-transparent-24.png" alt="youtube icon"></a></li>
+        </ul>
+    </footer>
+    <script src="js/dates.js"></script> 
 <script src="js/navigation.js"></script>
 <script src="js/enlargelogo.js"></script>
 <script src="js/weather.js"></script>

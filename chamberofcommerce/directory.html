@@ -36,61 +36,31 @@
     <div class="lightbox-target" id="enlargedlogo">
         <a class="lightbox-close" href="#"></a>
     </div>
-    <section class="gallerymain">
-        <h2 id="galleryh2">Weather Gallery</h2>
-        <div class="lastVisit">
-            <p>Thank you for visiting the weather gallery</p>
-            <p>Last visit: <span id="lastv"></span></p>
-        </div>
-        <picture>
-            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_raychel-sanner-dydirn1ot04-unsplash.jpg"><br>
-            <caption>Thunder storm across a valley</caption>
-        </picture>
-        <picture>
-            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_artyom-lisov-d4fr5wlpv_w-unsplash.jpg"><br>
-            <caption>Sunny day over a farm</caption>
-        </picture>
-        <picture>
-            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_clayton-tblisp022pq-unsplash.jpg"><br>
-            <caption>Clouds over hills</caption>    
-        </picture>
-        <picture>
-            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_raimond-klavins-rxm_s9xmk-y-unsplash.jpg"><br>
-            <caption>Rain on a window with blurred view<br> of street</caption>
-        </picture>
-        <picture>
-            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_boris-stromar-gi4p7nicvni-unsplash.jpg"><br>
-            <caption>Fog in woods</caption>
-        </picture>
-        <picture>
-            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_jay-williams-7cetum_ptp4-unsplash.jpg"><br>
-            <caption>Cumulus cloud front over flat land<br> with farmhouse and trees</caption>
-        </picture>
-        <picture>
-            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_1noaa-lyah_ffkkno-unsplash.jpg"><br>
-            <caption>Deep snow on residential road</caption>
-        </picture>
-        <picture>
-            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_csaba-talaber-tsbrcuwa-gw-unsplash.jpg"><br>
-            <caption>Fog on a lake with trees on the bank</caption>
-        </picture>
-        <picture>
-            <img src="https://via.placeholder.com/300x200" data-src="images/rsz_1rsz_de-ca-k8dtm1-tomq-unsplash.jpg"><br> 
-            <caption>Cotton candy clouds over a hill with<br> a town in the foreground</caption>
-        </picture></main>
+    <div class="cards"></div>
+</main>
 <footer>
+    <div class="footerinfo">
     <p class="copy">&copy; <span id="year"></span> | Real Weather 24 | Idaho</p>
     <p>Weather information provided by <a class="attribution" href="https://openweathermap.org/">OpenWeather</a></p>
-    <p>Map provided by <a class="attribution" href="https://www.google.com/maps/">Google Maps</a></p>
     <p><span id="current"></span> | <a class="attribution" href="attribution.html">Attribution</a></p>
+    </div>
+    <section class="address">
+    <p id="contact1">🧭&nbsp;234 Real Dr <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quakertown, PA 18951</p>
+    <p id="contact2">☎&nbsp;555-222-1234 <br>
+    ✉&nbsp;qtowncoc@mysite.gov</p>
+    </section>
+    <ul class="social">
+        <li><a href="https://www.facebook.com/"><img src="images/rsz_1toppngcom-facebook-logo-white-501x425.png" alt="facebook icon"></a></li>&nbsp;
+        <li><a href="https://www.instagram.com/"><img src="images/rsz_instagram.png" alt="instagram icon"></a></li>&nbsp;
+        <li><a href="https://twitter.com/"><img src="images/rsz_oblytile-metro-icons-v1-1-twitter-twitter-logo-png-clipart-thumbnail.jpg" alt="twitter icon"></a></li>&nbsp;
+        <li><a href="https://www.youtube.com/"><img src="images/rsz_white-youtube-logo-transparent-24.png" alt="youtube icon"></a></li>
+    </ul>
 </footer>
 <script src="js/dates.js"></script> 
 <script src="js/navigation.js"></script>
 <script src="js/enlargelogo.js"></script>
-<script src="js/weather.js"></script>
-<script src="js/threeday.js"></script>
-<script src="js/events.js"></script>
-<script src="js/windchill.js"></script>
+<script src="js/directory.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script> WebFont.load({google: {families: ["Playfair Display SC", "Miss Fajardose", "Corinthia", "Lobster", "Roboto", "Open Sans", "sans-serif"] }}); </script>
 </body>
