@@ -34,82 +34,70 @@
           "hours": "Everyday 7AM to 2PM"
         },
         {
-          "name": "Franklin",
-          "photo": "franklin.jpg",
-          "motto": "Where you will grow!",
-          "yearFounded": 1788,
-          "currentPopulation": 30458,
-          "averageRainfall": 21,
-          "events": [
-            "March 4: March to the Drum of Donuts",
-            "September 5 - 11: Founder Days",
-            "December 1 - 26: Christmas in the Heart"
-          ]
+          "name": "Auto Repair by Mike",
+          "logo": "images/rsz_autorepairbymike.png",
+          "photo": "images/rsz_repairbymike.jpg",
+          "summary": "Auto Repair is a business built on trust and I want my customers to feel confident every time they come to me with their automotive needs. Over the past 10+ years that I have been a mechanic I have worked in many dealerships including BMW, Honda, KIA and Toyota as well as a few independent shops.",
+          "address": "13 N. Hellertown Ave",
+          "address2": "Quakertown, PA 18951",
+          "phone": "215-538-7259",
+          "email": "info@autorepairbymike.com",
+          "hours": "Monday through Friday 8AM to 4:30PM Closed Weekends"
         },
         {
-          "name": "Greenville",
-          "photo": "greenville.jpg",
-          "motto": "Green is our way of life.",
-          "yearFounded": 1805,
-          "currentPopulation": 33458,
-          "averageRainfall": 25,
-          "events": [
-            "February 10-12: Greenbration",
-            "May 8 - 18: Greenville Founder Days",
-            "June 20: Verde and Valiant Day",
-            "November 15-16: Greensome Gathering"
-          ]
+          "name": "Quakertown Family Restaurant",
+          "logo": "images/rsz_qfr.png",
+          "photo": "images/rsz_qfr.jpg",
+          "summary": "Serving Quakertown and the surrounding communities since 1992! We don’t take reservations for Dinning in, but we do take them for private parties and meetings in our semi private areas in the back dinning room. Want to place a take out? Call us we would be happy to serve you. As we work with COVID-19 restrictions, in house dinning is limited seating, and all safety precautions are taken. We ask that you wear a mask while exiting and entering the establishment, and while using any common areas.",
+          "address": "25 N. West End Blvd",
+          "address2": "Quakertown, PA 18951",
+          "phone": "215-536-3446",
+          "email": "N/A",
+          "hours": "Sunday through Thursday 7AM to 9PM Friday and Saturday 7AM to 10PM"
         },
         {
-          "name": "Placerton",
-          "photo": "placerton.jpg",
-          "motto": "Positive Placement in Placerton.",
-          "yearFounded": 1946,
-          "currentPopulation": 512,
-          "averageRainfall": 39,
-          "events": [
-            "July 4: A Blaze of Glory",
-            "October 20: Fall through Fall"
-          ]
-        },
-        {
-          "name": "Preston",
-          "photo": "preston.jpg",
-          "motto": "Home of Napoleon Dynamite.",
-          "yearFounded": 1866,
-          "currentPopulation": 5204,
-          "averageRainfall": 16.65,
-          "events": [
-            "March 29: Work Creek Revival",
-            "July 8-12: Napoleon Dynamite Festival",
-            "November 2-4: Freedom Days"
-          ]
-        },
-        {
-            "name": "Preston",
-            "photo": "preston.jpg",
-            "motto": "Home of Napoleon Dynamite.",
-            "yearFounded": 1866,
-            "currentPopulation": 5204,
-            "averageRainfall": 16.65,
-            "events": [
-              "March 29: Work Creek Revival",
-              "July 8-12: Napoleon Dynamite Festival",
-              "November 2-4: Freedom Days"
-            ]
+            "name": "Quakertown Family Restaurant",
+            "logo": "images/rsz_qfr.png",
+            "photo": "images/rsz_qfr.jpg",
+            "summary": "Serving Quakertown and the surrounding communities since 1992! We don’t take reservations for Dinning in, but we do take them for private parties and meetings in our semi private areas in the back dinning room. Want to place a take out? Call us we would be happy to serve you. As we work with COVID-19 restrictions, in house dinning is limited seating, and all safety precautions are taken. We ask that you wear a mask while exiting and entering the establishment, and while using any common areas.",
+            "address": "25 N. West End Blvd",
+            "address2": "Quakertown, PA 18951",
+            "phone": "215-536-3446",
+            "email": "N/A",
+            "hours": "Sunday through Thursday 7AM to 9PM Friday and Saturday 7AM to 10PM"
           },
           {
-            "name": "Preston",
-            "photo": "preston.jpg",
-            "motto": "Home of Napoleon Dynamite.",
-            "yearFounded": 1866,
-            "currentPopulation": 5204,
-            "averageRainfall": 16.65,
-            "events": [
-              "March 29: Work Creek Revival",
-              "July 8-12: Napoleon Dynamite Festival",
-              "November 2-4: Freedom Days"
-            ]
+            "name": "Quakertown Family Restaurant",
+            "logo": "images/rsz_qfr.png",
+            "photo": "images/rsz_qfr.jpg",
+            "summary": "Serving Quakertown and the surrounding communities since 1992! We don’t take reservations for Dinning in, but we do take them for private parties and meetings in our semi private areas in the back dinning room. Want to place a take out? Call us we would be happy to serve you. As we work with COVID-19 restrictions, in house dinning is limited seating, and all safety precautions are taken. We ask that you wear a mask while exiting and entering the establishment, and while using any common areas.",
+            "address": "25 N. West End Blvd",
+            "address2": "Quakertown, PA 18951",
+            "phone": "215-536-3446",
+            "email": "N/A",
+            "hours": "Sunday through Thursday 7AM to 9PM Friday and Saturday 7AM to 10PM"
+          },
+          {
+            "name": "Quakertown Family Restaurant",
+            "logo": "images/rsz_qfr.png",
+            "photo": "images/rsz_qfr.jpg",
+            "summary": "Serving Quakertown and the surrounding communities since 1992! We don’t take reservations for Dinning in, but we do take them for private parties and meetings in our semi private areas in the back dinning room. Want to place a take out? Call us we would be happy to serve you. As we work with COVID-19 restrictions, in house dinning is limited seating, and all safety precautions are taken. We ask that you wear a mask while exiting and entering the establishment, and while using any common areas.",
+            "address": "25 N. West End Blvd",
+            "address2": "Quakertown, PA 18951",
+            "phone": "215-536-3446",
+            "email": "N/A",
+            "hours": "Sunday through Thursday 7AM to 9PM Friday and Saturday 7AM to 10PM"
+          },
+          {
+            "name": "Quakertown Family Restaurant",
+            "logo": "images/rsz_qfr.png",
+            "photo": "images/rsz_qfr.jpg",
+            "summary": "Serving Quakertown and the surrounding communities since 1992! We don’t take reservations for Dinning in, but we do take them for private parties and meetings in our semi private areas in the back dinning room. Want to place a take out? Call us we would be happy to serve you. As we work with COVID-19 restrictions, in house dinning is limited seating, and all safety precautions are taken. We ask that you wear a mask while exiting and entering the establishment, and while using any common areas.",
+            "address": "25 N. West End Blvd",
+            "address2": "Quakertown, PA 18951",
+            "phone": "215-536-3446",
+            "email": "N/A",
+            "hours": "Sunday through Thursday 7AM to 9PM Friday and Saturday 7AM to 10PM"
           }
-      ]
+    ]
 }
