@@ -5,10 +5,10 @@
           "logo": "https://cdn.etailpet.com/media/petsplusnatural/logos/pplogowhitenew_L4X8l20.png",
           "photo": "images/rsz_pets_plus.jpg",
           "summary": "Pets Plus Natural has built our business based on the fact that what your pet eats affects its health. We offer the area&rsquo;s largest selection of natural and holistic pet foods at the lowest prices. And as more of us become concerned about where and how our food is processed, we are proud to say we have the biggest variety of American-made pet foods and treats in the region. We are local and family-owned and have been serving Philadelphia area pet families since 1988. Now, in partnership with the Humane Society of the United States and numerous shelters, we have become a rescue center offering dogs, cats, puppies and kittens for adoption. Saving animals from cruelty, neglect and homelessness one new family at a time has become our key mission. Our commitment makes it possible for our partners to save more animals in need, even before a forever family steps forward. &nbsp;Adopt one, save two is how we think of this new model for rescue since every pet available for adoption has already escaped a desperate situation. These pets are vet-checked, vaccinated, and spayed or neutered.",
+          "website": "https://www.petsplusnatural.com/",
           "address":"117 S. West End Blvd.",
           "address2":"Quakertown, PA 18951",
           "phone": "215-536-8777",
-          "email": "https://ppnquakertownonline@gmail.com",
           "hours":"Monday through Saturday 10AM to 9PM and Sunday 10AM to 7PM"
         },
         {
@@ -16,10 +16,10 @@
           "logo": "images/rsz_logo.jpg",
           "photo": "images/rsz_quakerantiquesmall.jpg",
           "summary": "Quaker Antique Mall, in historic Bucks County, PA, is owned and operated by Dave and Gail Snyder. They purchased the Mall in 1997 when it was just 3 years old. Since then, the Quaker Antique Mall has undergone two renovations. Gail manages the Antique Mall and oversees the day-to-day operations as well as co-ordinating advertising and special events. Dave takes care of the business end and routine maintenance. Their goal for the Quaker Antique Mall is to provide customers with a pleasant and unique shopping experience. They hope each and every customer who comes to the Quaker Antique Mall will find that special treasure he/she has been searching for, and to leave with a smile on his/her face.",
+          "website": "https://www.quakertownantiques.com/",
           "address": "70 Tollgate Rd.",
           "address2": "Quakertown, PA 18951",
           "phone": "215-538-9445",
-          "email": "N/A",
           "hours": "Sunday, Monday, and Thursday 10AM to 5PM and Friday and Saturday 10AM to 6PM"
         },
         {
@@ -27,10 +27,10 @@
           "logo": "https://sundaysdeli.com/wp-content/uploads/2020/05/favicon-150x150.png 150w",
           "photo": "fishhaven.jpg",
           "summary": "From Elafonisos, Greece to Quakertown, USA, the finest in Greek-Mediterranean specialties. Local family owned and operated restaurant featuring a variety of delicious cuisine. In business over 30 years!",
+          "website": "https://sundaysdeli.com/",
           "address": "140 E. Broad St.",
           "address2": "Quakertown, PA 18951",
           "phone": "215-536-2248",
-          "email": "N/A",
           "hours": "Everyday 7AM to 2PM"
         },
         {
@@ -38,10 +38,10 @@
           "logo": "images/rsz_autorepairbymike.png",
           "photo": "images/rsz_repairbymike.jpg",
           "summary": "Auto Repair is a business built on trust and I want my customers to feel confident every time they come to me with their automotive needs. Over the past 10+ years that I have been a mechanic I have worked in many dealerships including BMW, Honda, KIA and Toyota as well as a few independent shops.",
-          "address": "13 N. Hellertown Ave",
+          "website": "https://www.autorepairbymike.com/",
+          "address": "13 N. Hellertown Ave.",
           "address2": "Quakertown, PA 18951",
           "phone": "215-538-7259",
-          "email": "info@autorepairbymike.com",
           "hours": "Monday through Friday 8AM to 4:30PM Closed Weekends"
         },
         {
@@ -49,55 +49,55 @@
           "logo": "images/rsz_qfr.png",
           "photo": "images/rsz_qfr.jpg",
           "summary": "Serving Quakertown and the surrounding communities since 1992! We don’t take reservations for Dinning in, but we do take them for private parties and meetings in our semi private areas in the back dinning room. Want to place a take out? Call us we would be happy to serve you. As we work with COVID-19 restrictions, in house dinning is limited seating, and all safety precautions are taken. We ask that you wear a mask while exiting and entering the establishment, and while using any common areas.",
-          "address": "25 N. West End Blvd",
+          "website": "https://quakertownfamily.com/",
+          "address": "25 N. West End Blvd.",
           "address2": "Quakertown, PA 18951",
           "phone": "215-536-3446",
-          "email": "N/A",
           "hours": "Sunday through Thursday 7AM to 9PM Friday and Saturday 7AM to 10PM"
         },
         {
-            "name": "Quakertown Family Restaurant",
-            "logo": "images/rsz_qfr.png",
-            "photo": "images/rsz_qfr.jpg",
-            "summary": "Serving Quakertown and the surrounding communities since 1992! We don’t take reservations for Dinning in, but we do take them for private parties and meetings in our semi private areas in the back dinning room. Want to place a take out? Call us we would be happy to serve you. As we work with COVID-19 restrictions, in house dinning is limited seating, and all safety precautions are taken. We ask that you wear a mask while exiting and entering the establishment, and while using any common areas.",
-            "address": "25 N. West End Blvd",
-            "address2": "Quakertown, PA 18951",
-            "phone": "215-536-3446",
-            "email": "N/A",
-            "hours": "Sunday through Thursday 7AM to 9PM Friday and Saturday 7AM to 10PM"
-          },
-          {
-            "name": "Quakertown Family Restaurant",
-            "logo": "images/rsz_qfr.png",
-            "photo": "images/rsz_qfr.jpg",
-            "summary": "Serving Quakertown and the surrounding communities since 1992! We don’t take reservations for Dinning in, but we do take them for private parties and meetings in our semi private areas in the back dinning room. Want to place a take out? Call us we would be happy to serve you. As we work with COVID-19 restrictions, in house dinning is limited seating, and all safety precautions are taken. We ask that you wear a mask while exiting and entering the establishment, and while using any common areas.",
-            "address": "25 N. West End Blvd",
-            "address2": "Quakertown, PA 18951",
-            "phone": "215-536-3446",
-            "email": "N/A",
-            "hours": "Sunday through Thursday 7AM to 9PM Friday and Saturday 7AM to 10PM"
-          },
-          {
-            "name": "Quakertown Family Restaurant",
-            "logo": "images/rsz_qfr.png",
-            "photo": "images/rsz_qfr.jpg",
-            "summary": "Serving Quakertown and the surrounding communities since 1992! We don’t take reservations for Dinning in, but we do take them for private parties and meetings in our semi private areas in the back dinning room. Want to place a take out? Call us we would be happy to serve you. As we work with COVID-19 restrictions, in house dinning is limited seating, and all safety precautions are taken. We ask that you wear a mask while exiting and entering the establishment, and while using any common areas.",
-            "address": "25 N. West End Blvd",
-            "address2": "Quakertown, PA 18951",
-            "phone": "215-536-3446",
-            "email": "N/A",
-            "hours": "Sunday through Thursday 7AM to 9PM Friday and Saturday 7AM to 10PM"
-          },
-          {
-            "name": "Quakertown Family Restaurant",
-            "logo": "images/rsz_qfr.png",
-            "photo": "images/rsz_qfr.jpg",
-            "summary": "Serving Quakertown and the surrounding communities since 1992! We don’t take reservations for Dinning in, but we do take them for private parties and meetings in our semi private areas in the back dinning room. Want to place a take out? Call us we would be happy to serve you. As we work with COVID-19 restrictions, in house dinning is limited seating, and all safety precautions are taken. We ask that you wear a mask while exiting and entering the establishment, and while using any common areas.",
-            "address": "25 N. West End Blvd",
-            "address2": "Quakertown, PA 18951",
-            "phone": "215-536-3446",
-            "email": "N/A",
-            "hours": "Sunday through Thursday 7AM to 9PM Friday and Saturday 7AM to 10PM"
-          }
+          "name": "Main Street Gallery",
+          "logo": "images/rsz_mainstreetgallery.jpg",
+          "photo": "images/rsz_jimlukenart.png",
+          "summary": "Featuring paintings by Jim Lukens, select area artists and students from Jim's oil painting classes.",
+          "website": "https://www.facebook.com/artinquakertown/",
+          "address": "1236 W. Broad St.",
+          "address2": "Quakertown, PA 18951",
+          "phone": "610-442-4112",
+          "hours": "Monday through Thursday Closed Friday Through Sunday 12PM to 5PM"
+        },
+        {
+        "name": "McCoole's Red Lion Inn",
+        "logo": "images/rsz_mccooles.jpg",
+        "photo": "images/rsz_mccooles2.jpg",
+        "summary": "Our mission at McCoole’s is to provide a fine dining experience, for a casual dining budget. We strive to offer the finest food at affordable prices, while maintaining the highest standards of excellence in customer service. We present an attractive and delightful atmosphere, combined with a pleasant staff to provide 100% guest satisfaction.",
+        "website": "https://www.mccoolesredlioninn.com/",
+        "address": "4 South Main Street",
+        "address2": "Quakertown, PA 18951",
+        "phone": "215-538-1776",
+        "hours": "Wednesday through Sunday 12PM to 9PM Monday and Tuesday Closed"
+        },
+        {
+        "name": "Lancer Systems LP",
+        "logo": "images/rsz_lancerlogo.jpg",
+        "photo": "images/rsz_lancer.png",
+        "summary": "Lancer Systems was founded by the ownership of Greene, Tweed & Co., Inc., a leading global manufacturer of high-performance elastomeric seals, thermoplastic composites, and integrated material solutions that has been at the forefront of American manufacturing since its inception in the mid-1800’s. Today, Greene, Tweed’s components are used by leaders across the aerospace, petrochemical & power, oilfield, semiconductor, and solar industries. Greene, Tweed entered the aerospace industry over 50 years ago with sealing systems for landing gear. Today, Greene, Tweed’s aerospace seals and thermoplastic composites remain the gold standard. In fact, Green, Tweed provides seals for over 90% of the western world’s commercial and military aircraft. As Greene, Tweed’s breakthroughs in material technologies and advanced manufacturing processes continued to grow into the 21st century, Green, Tweed determined that it could best serve the market by splitting off a new standalone company to focus solely on military and defense projects. Lancer Systems was born.",
+        "website": "https://lancer-systems.com/",
+        "address": "2800 Milford Square Pike",
+        "address2": "Quakertown, PA 18951",
+        "phone": "610-973-2600",
+        "hours": "Monday Through Friday 8AM to 5PM Closed Weekends"
+        },
+        {
+        "name": "Giant Food Stores",
+        "logo": "images/rsz_qfr.png",
+        "photo": "images/rsz_qfr.jpg",
+        "summary": "Visit your local GIANT Food Stores Pharmacy located at 901 S West End Blvd to fill prescriptions, get advice on medications, receive health screenings, and get immunizations.",
+        "website": "https://stores.giantfoodstores.com/pa/quakertown/901-s-west-end-blvd",
+        "address": "901 S. West End Blvd.",
+        "address2": "Quakertown, PA 18951",
+        "phone": "215-536-5065",
+        "hours": "Everyday 6AM to 11PM"
+        }
     ]
 }
