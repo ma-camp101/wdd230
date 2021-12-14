@@ -11,8 +11,24 @@ fetch(businesses)
 
   .then(function (jsonObject) {
     let businesses = jsonObject['businesses'];
-    businesses.forEach((business) => {
-      
+    const myarray = [-1, -1, -1]; 
+    for (i=0; i<myarray.length; i++) {
+      let unique = false;
+      let temp = -1;
+      while (!unique) {
+        temp = Math.floor (Math.random() * businesses.length);
+        unique = true;
+        for (j=0; j<myarray.length; j++) {
+          if (myarray[j] == temp) {
+            unique = false;
+          }
+        }
+     
+      }
+      myarray[i] = temp;
+    }
+    myarray.forEach((temp) => { 
+      const business = businesses[temp];
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
       let logo = document.createElement('img');

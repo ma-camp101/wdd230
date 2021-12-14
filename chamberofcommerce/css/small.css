@@ -116,13 +116,13 @@ a.lightbox-close:after {
     font-family: "Playfair Display SC", "Lobster", "serif";
     font-weight: 900;
     font-style: italic;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 #coc {
     color: #ffffff;
     font-family: "Miss Fajardose", "Corinthia", "fantasy";
     font-weight: 400;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 #motto {
     color: #ffffff;
@@ -176,19 +176,18 @@ a.lightbox-close:after {
 }
 .hero img {
     width: 100%;
+    margin-bottom: 10px;
 }
 #join {
     line-height: 2em;
     width: 10em;
-    position: relative;
     background-color: #2075ff;
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 700;
     text-decoration: none;
     border: solid thin #ffffff;
     padding: 10px 20px;
-    box-shadow: 5px 5px 5px #1d4861;
     text-align: center;
   }
   #join:hover {
@@ -198,6 +197,7 @@ a.lightbox-close:after {
 .innersection {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 .summary {
     grid-column: 1;
@@ -206,18 +206,11 @@ a.lightbox-close:after {
     grid-gap: 10px;
     width: 350px;
     position: relative;
-    background-color: #C676D3;
+    background-color: #d3b4d8;
     opacity: 70%;
     color: #000000;
     border: solid thick #1d4861;
     margin: auto;
-}
-.summary h2 {
-    grid-column: 1/span 2;
-    grid-row: 1;
-    justify-self: center;
-    margin-bottom: 0;
-    font-weight: 900;
 }
 #currenticon {
     width: 80px;
@@ -249,21 +242,20 @@ a.lightbox-close:after {
 .threeday {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 5px;
     text-align: center;
 }
 .threeday h2 {
     grid-column: 1/span 3;
     justify-self: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 3em;
+    padding: 0 20px;
+    font-size: 1.5rem;
 }
 .threeday p {
-    background-color: #f5f8de;
-    border: solid thin #aeb198;
-    width: 50px;
-    padding: 20px 30px;
+    background-color: #d3c2d6;
+    border: solid thick #437694;
+    width: 90px;
+    font-weight: 700;
     justify-self: center;
 }
 #day1 {
@@ -275,21 +267,19 @@ a.lightbox-close:after {
 #day3 {
     grid-column: 3;
 }
-.featuredbiz {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   gap: 15px;
-    width: 300px;  
-    margin-top: 50px; 
+.welcome {
+    width: 90vw;
+    margin: 10px;
+    font-weight: 700;
 }
 .featuredbiz section {
+    width: 90vw;
     background-color: #f5f8de;
-    margin-bottom: 20px;
+    margin: 10px;
     padding: 10px;
     text-align: center;
     border: solid thin #1d4861;
-    box-shadow: 5px 5px 5px #1d4861;
+    font-weight: 700;
 }
 .featuredbiz section img {
     width: 100%;
@@ -298,6 +288,12 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: #6F99BB;
+}
+footer p {
+    font-weight: 700;
+}
+footer a {
+    text-decoration: none;
 }
 .footerinfo {
     padding: 10px;
@@ -311,6 +307,9 @@ footer {
     padding-right: 20px;
     list-style-type: none;
     align-self: center;
+}
+.socialicons {
+    width: 50px;
 }
 .social li {
     padding: 10px;
