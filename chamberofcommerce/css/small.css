@@ -177,6 +177,24 @@ a.lightbox-close:after {
 .hero img {
     width: 100%;
 }
+#join {
+    line-height: 2em;
+    width: 10em;
+    position: relative;
+    background-color: #2075ff;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-decoration: none;
+    border: solid thin #ffffff;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 5px #1d4861;
+    text-align: center;
+  }
+  #join:hover {
+    background-color: #1d4861;
+  }
+
 .innersection {
     display: flex;
     flex-direction: column;
@@ -256,6 +274,25 @@ a.lightbox-close:after {
 }
 #day3 {
     grid-column: 3;
+}
+.towns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   gap: 15px;
+    width: 300px;  
+    margin-top: 50px; 
+}
+.towns section {
+    background-color: #f5f8de;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    border: solid thin #1d4861;
+    box-shadow: 5px 5px 5px #1d4861;
+}
+.towns section img {
+    width: 100%;
 }
 footer {
     display: flex;
