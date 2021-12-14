@@ -3,7 +3,9 @@
         {
           "name": "Pets Plus",
           "logo": "https://cdn.etailpet.com/media/petsplusnatural/logos/pplogowhitenew_L4X8l20.png",
+          "logoalt": "Pets Plus Logo",
           "photo": "images/rsz_pets_plus.jpg",
+          "photoalt": "Pets Plus storefront",
           "summary": "Pets Plus Natural has built our business based on the fact that what your pet eats affects its health. We offer the area&rsquo;s largest selection of natural and holistic pet foods at the lowest prices. And as more of us become concerned about where and how our food is processed, we are proud to say we have the biggest variety of American-made pet foods and treats in the region. We are local and family-owned and have been serving Philadelphia area pet families since 1988. Now, in partnership with the Humane Society of the United States and numerous shelters, we have become a rescue center offering dogs, cats, puppies and kittens for adoption. Saving animals from cruelty, neglect and homelessness one new family at a time has become our key mission. Our commitment makes it possible for our partners to save more animals in need, even before a forever family steps forward. &nbsp;Adopt one, save two is how we think of this new model for rescue since every pet available for adoption has already escaped a desperate situation. These pets are vet-checked, vaccinated, and spayed or neutered.",
           "website": "https://www.petsplusnatural.com/",
           "address":"117 S. West End Blvd.",
@@ -14,7 +16,9 @@
         {
           "name": "Quaker Antique Mall",
           "logo": "images/rsz_logo.jpg",
+          "logoalt": "Quaker Antique Mall Logo",
           "photo": "images/rsz_quakerantiquesmall.jpg",
+          "photoalt": "Quaker Antique Mall storefront sign",
           "summary": "Quaker Antique Mall, in historic Bucks County, PA, is owned and operated by Dave and Gail Snyder. They purchased the Mall in 1997 when it was just 3 years old. Since then, the Quaker Antique Mall has undergone two renovations. Gail manages the Antique Mall and oversees the day-to-day operations as well as co-ordinating advertising and special events. Dave takes care of the business end and routine maintenance. Their goal for the Quaker Antique Mall is to provide customers with a pleasant and unique shopping experience. They hope each and every customer who comes to the Quaker Antique Mall will find that special treasure he/she has been searching for, and to leave with a smile on his/her face.",
           "website": "https://www.quakertownantiques.com/",
           "address": "70 Tollgate Rd.",
@@ -25,7 +29,9 @@
         {
           "name": "Sunday's Deli amd Restaurant",
           "logo": "https://sundaysdeli.com/wp-content/uploads/2020/05/favicon-150x150.png 150w",
-          "photo": "fishhaven.jpg",
+          "logoalt": "favicon image for Sunday's Deli",
+          "photo": "images/rsz_sundays.jpg",
+          "photoalt": "Sunday's Deli interior",
           "summary": "From Elafonisos, Greece to Quakertown, USA, the finest in Greek-Mediterranean specialties. Local family owned and operated restaurant featuring a variety of delicious cuisine. In business over 30 years!",
           "website": "https://sundaysdeli.com/",
           "address": "140 E. Broad St.",
@@ -36,7 +42,9 @@
         {
           "name": "Auto Repair by Mike",
           "logo": "images/rsz_autorepairbymike.png",
+          "logoalt": "Auto Repair by Mike logo",
           "photo": "images/rsz_repairbymike.jpg",
+          "photoalt": "Mike of Auto Repair by Mike in front of his shop",
           "summary": "Auto Repair is a business built on trust and I want my customers to feel confident every time they come to me with their automotive needs. Over the past 10+ years that I have been a mechanic I have worked in many dealerships including BMW, Honda, KIA and Toyota as well as a few independent shops.",
           "website": "https://www.autorepairbymike.com/",
           "address": "13 N. Hellertown Ave.",
@@ -47,7 +55,9 @@
         {
           "name": "Quakertown Family Restaurant",
           "logo": "images/rsz_qfr.png",
+          "logoalt": "Quakertown Family Restaurant storefront sign",
           "photo": "images/rsz_qfr.jpg",
+          "photoalt": "Quakertown Family Restaurant interior",
           "summary": "Serving Quakertown and the surrounding communities since 1992! We don’t take reservations for Dinning in, but we do take them for private parties and meetings in our semi private areas in the back dinning room. Want to place a take out? Call us we would be happy to serve you. As we work with COVID-19 restrictions, in house dinning is limited seating, and all safety precautions are taken. We ask that you wear a mask while exiting and entering the establishment, and while using any common areas.",
           "website": "https://quakertownfamily.com/",
           "address": "25 N. West End Blvd.",
@@ -58,7 +68,9 @@
         {
           "name": "Main Street Gallery",
           "logo": "images/rsz_mainstreetgallery.jpg",
+          "logoalt": "Main Street Gallery storefront with street sign in foreground",
           "photo": "images/rsz_jimlukenart.png",
+          "photoalt": "Main Street Gallery Christmas Display",
           "summary": "Featuring paintings by Jim Lukens, select area artists and students from Jim's oil painting classes.",
           "website": "https://www.facebook.com/artinquakertown/",
           "address": "1236 W. Broad St.",
@@ -69,7 +81,9 @@
         {
         "name": "McCoole's Red Lion Inn",
         "logo": "images/rsz_mccooles.jpg",
+        "logoalt": "McCoole's Red Lion Inn logo",
         "photo": "images/rsz_mccooles2.jpg",
+        "photoalt": "McCoole's Red Lion Inn storefront sign",
         "summary": "Our mission at McCoole’s is to provide a fine dining experience, for a casual dining budget. We strive to offer the finest food at affordable prices, while maintaining the highest standards of excellence in customer service. We present an attractive and delightful atmosphere, combined with a pleasant staff to provide 100% guest satisfaction.",
         "website": "https://www.mccoolesredlioninn.com/",
         "address": "4 South Main Street",
@@ -80,7 +94,9 @@
         {
         "name": "Lancer Systems LP",
         "logo": "images/rsz_lancerlogo.jpg",
+        "logoalt": "Lancer Systems LP logo",
         "photo": "images/rsz_lancer.png",
+        "photoalt": "stacked Lancer brand pistol magazine basepads",
         "summary": "Lancer Systems was founded by the ownership of Greene, Tweed & Co., Inc., a leading global manufacturer of high-performance elastomeric seals, thermoplastic composites, and integrated material solutions that has been at the forefront of American manufacturing since its inception in the mid-1800’s. Today, Greene, Tweed’s components are used by leaders across the aerospace, petrochemical & power, oilfield, semiconductor, and solar industries. Greene, Tweed entered the aerospace industry over 50 years ago with sealing systems for landing gear. Today, Greene, Tweed’s aerospace seals and thermoplastic composites remain the gold standard. In fact, Green, Tweed provides seals for over 90% of the western world’s commercial and military aircraft. As Greene, Tweed’s breakthroughs in material technologies and advanced manufacturing processes continued to grow into the 21st century, Green, Tweed determined that it could best serve the market by splitting off a new standalone company to focus solely on military and defense projects. Lancer Systems was born.",
         "website": "https://lancer-systems.com/",
         "address": "2800 Milford Square Pike",
@@ -90,8 +106,10 @@
         },
         {
         "name": "Giant Food Stores",
-        "logo": "images/rsz_qfr.png",
-        "photo": "images/rsz_qfr.jpg",
+        "logo": "images/rsz_giantlogo.jpg",
+        "logoalt": "Giant Food Stores logo",
+        "photo": "images/rsz_giantdelivery.png",
+        "photoalt": "Giant Food Stores Direct Delivery associate putting grocery backs in the back of a car",
         "summary": "Visit your local GIANT Food Stores Pharmacy located at 901 S West End Blvd to fill prescriptions, get advice on medications, receive health screenings, and get immunizations.",
         "website": "https://stores.giantfoodstores.com/pa/quakertown/901-s-west-end-blvd",
         "address": "901 S. West End Blvd.",
