@@ -275,7 +275,7 @@ a.lightbox-close:after {
 #day3 {
     grid-column: 3;
 }
-.towns {
+.featuredbiz {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -283,7 +283,7 @@ a.lightbox-close:after {
     width: 300px;  
     margin-top: 50px; 
 }
-.towns section {
+.featuredbiz section {
     background-color: #f5f8de;
     margin-bottom: 20px;
     padding: 10px;
@@ -291,7 +291,7 @@ a.lightbox-close:after {
     border: solid thin #1d4861;
     box-shadow: 5px 5px 5px #1d4861;
 }
-.towns section img {
+.featuredbiz section img {
     width: 100%;
 }
 footer {

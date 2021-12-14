@@ -54,6 +54,6 @@ fetch(businesses)
       photo.setAttribute('alt', `${business.photoalt}`);
       card.appendChild(photo);
       
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector('div.featuredbiz').appendChild(card);
     });
   });
