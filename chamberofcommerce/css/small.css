@@ -355,6 +355,89 @@ a.lightbox-close:after {
     float: right;
     padding: 5px;
 }
+.contact {
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+.googlemap iframe {
+    width: 300px;
+}
+.stormReport {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background-color: #92c3eb;
+    border: solid thin #aeb198;
+    margin: 10px 5px 50px 5px;
+}
+.stormReport h3,.reportDiv, .reportDiv input, .reportDiv button, .reportDiv button a, .reportDiv ul li, footer #attribution, .social li {
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.reportDiv {
+    margin-bottom: 5px;
+}
+.reportDiv label, .reportDiv button {
+    font-weight: 600;
+}
+.thanks {
+    min-height: 500px;
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+.board {
+    margin-top: 100px;
+    font-size: 1.5rem;
+}
+.members {
+    list-style-type: none;
+}
+.join {
+    font-size: 1.35rem;
+}
+.level {
+    width: 20px;
+    height: 20px;
+}
+.benefits {
+    background-color: #d3b4d8;
+    border: solid thin #aeb198;
+    margin: 10px 10px 50px 10px;
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+.benefits h2 {
+    font-size: 2rem;
+}
+.bling {
+    list-style-type: none;
+}
+.gold {
+    background-color: #FFD700;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.silver {
+    background-color: #C0C0C0;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.bronze {
+    background-color: #CD7F32;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.non-profit {
+    background-color: #1111b6;
+    color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
 footer {
     display: flex;
     flex-direction: column;

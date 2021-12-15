@@ -1,4 +1,10 @@
 @media only screen and (min-width: 1024px) {
+    #quakertown {
+        font-size: 3.5rem;
+    }
+    #coc {
+        font-size: 4.5rem;
+    }
     .featuredbiz {
         flex-direction: row;
         margin-top: 100px;
@@ -26,5 +32,9 @@
     }
     .landmarks h3 {
         grid-column: 1/span 3;
+    }
+    .googlemap iframe {
+        width: 80%;
+        min-width: 300px;
     }
 }

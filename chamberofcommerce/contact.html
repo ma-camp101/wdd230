@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Preston Idaho Web Page">
+    <meta name="description" content="Contact Web Page for Quakertown Chamber of Commerce">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico">
-    <title>Preston Idaho page</title>
+    <title>Contact page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">   
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -30,10 +30,10 @@
             <li><a class="listItem" href="join.html">Join</a></li>
        </ul> 
     </nav>
-<main>
     <div class="lightbox-target" id="enlargedlogo">
         <a class="lightbox-close" href="#"></a>
     </div>
+<main class="contact">
         <h2 id="preston">Contact Page</h2>
         <section class="address">
             <p id="contact1">🧭&nbsp;234 Real Dr <br>
@@ -42,7 +42,7 @@
             ✉&nbsp;qtowncoc@mysite.gov</p>
         </section>
         <section class="googlemap">
-
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24292.88565486959!2d-75.36186908892594!3d40.43961829194504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c418a086dd9723%3A0x6c70b7eab5187648!2sQuakertown%2C%20PA%2018951!5e0!3m2!1sen!2sus!4v1639594864919!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>    
         <form class="stormReport">
             <div class="reportDiv">
@@ -66,9 +66,23 @@
                 <textarea name="comments" id="comments" cols="30" rows="12"></textarea></label>
             </div>
             <div class="reportDiv reportButton">
-                <button type="button"><a href="thanks.html">Send Report</a></button>
+                <button type="button"><a href="thanks.html">Send</a></button> <button type="button" onclick="document.getElementById('comments').value = ''">Clear</a></button>
             </div>
         </form>
+        <section class="board">
+            <ul class="members">
+                <li>PRESIDENT OF COUNCIL</li><br>
+                <li>Donald E. Rosenberger</li><br>
+                <li>VICE PRESIDENT OF COUNCIL</li><br>
+                <li>L. James Roberts, Jr.</li><br>
+                <li>MEMBERS OF COUNCIL</li><br>
+                <li>Michael Johnson</li><br>
+                <li>Douglas Propst</li><br>
+                <li>Dave Wilsey</li><br>
+                <li>Jonathan Sell</li><br>
+                <li>Mae Wear</li>
+            </ul>
+        </section>
     </main>
     <footer>
         <div class="footerinfo">
@@ -76,12 +90,6 @@
         <p>Weather information provided by <a class="attribution" href="https://openweathermap.org/">OpenWeather</a></p>
         <p><span id="current"></span> | <a class="attribution" href="attribution.html">Attribution</a></p>
         </div>
-        <section class="address">
-        <p id="contact1">🧭&nbsp;234 Real Dr <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quakertown, PA 18951</p>
-        <p id="contact2">☎&nbsp;555-222-1234 <br>
-        ✉&nbsp;qtowncoc@mysite.gov</p>
-        </section>
         <ul class="social">
             <li><a href="https://www.facebook.com/"><img class="socialicons" src="images/rsz_pngfindcom-instagram-symbol-png-102712.png" alt="facebook icon"></a></li>&nbsp;
             <li><a href="https://www.instagram.com/"><img class="socialicons" src="images/rsz_1pngfindcom-instagram-symbol-png-102712.png" alt="instagram icon"></a></li>&nbsp;
