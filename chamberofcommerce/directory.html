@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Preston Idaho Web Page">
+    <meta name="description" content="Business Directory Web Page for the Quakertown Pennsylvania Chamber of Commerce">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico">
-    <title>Preston Idaho page</title>
+    <title>Business Directory page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">   
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -34,7 +34,8 @@
     <div class="lightbox-target" id="enlargedlogo">
         <a class="lightbox-close" href="#"></a>
     </div>
-    <div class="cards"></div>
+    <button class="switchview" onclick="switchView()"><img src="images/rsz_gallery.png" alt="gallery page icon">&#160;<img src="images/rsz_1list.png" alt="List view icon"></button>
+    <div class="cards list"></div>
 </main>
 <footer>
     <div class="footerinfo">
@@ -59,6 +60,7 @@
 <script src="js/navigation.js"></script>
 <script src="js/enlargelogo.js"></script>
 <script src="js/directory.js"></script>
+<script src="js/switchview.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script> WebFont.load({google: {families: ["Playfair Display SC", "Miss Fajardose", "Corinthia", "Lobster", "Roboto", "Open Sans", "sans-serif"] }}); </script>
 </body>

@@ -91,6 +91,11 @@
         grid-gap: 10px;
         margin-top: 10px;
     }
+    .list {
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+    }
     footer {
         flex-direction: row;
         width: 100vw;

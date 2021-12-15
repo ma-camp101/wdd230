@@ -23,7 +23,7 @@ fetch(businesses)
       let address2 = document.createElement('p');
       let phone = document.createElement('p');
       let hours = document.createElement('p');
-
+      var linkText = document.createTextNode("Website");
 
       h2.innerHTML = `${business.name}`;
       card.appendChild(h2);
@@ -36,6 +36,8 @@ fetch(businesses)
       card.appendChild(summary);
 
       website.setAttribute('href', business.website);
+      website.appendChild(linkText);
+      website.setAttribute('title', "Website");
       card.appendChild(website);
 
       address.innerHTML = `${business.address}`;
