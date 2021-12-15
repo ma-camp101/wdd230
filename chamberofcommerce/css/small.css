@@ -294,10 +294,19 @@ a.lightbox-close:after {
     margin: 10px;
     font-weight: 700;
 }
+.events {
+    background-color: #446833;
+    color: #ffffff;
+    opacity: 70%;
+    width: 70vw;
+    margin: 0 auto;
+    font-weight: 700;
+}
 .featuredbiz {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-weight: 700;
     gap: 15px;
     width: 300px;  
     margin: 0 auto; 
