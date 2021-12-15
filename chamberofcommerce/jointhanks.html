@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Membership Appilication Thank You Web Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Membership Application Thank You page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">   
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <a class="lightbox" href="#enlargedlogo" onclick="enlargeLogo()"><img class="logo" src="images/rsz_liberty_bell_in_quakertown1.jpg" alt="Liberty hall in Quakertown Pennsylvania with replica Liberty Bell"></a>
+        <section>
+            <h1><span id="quakertown">Quakertown</span><br><span id="coc">Chamber of Commerce</span></h1> 
+            <q id="motto"><i>The Heart of Upper Bucks County!</i></q> 
+        </section>
+    </header>
+    <nav>          
+        <ul class="menu">            
+            <li><a class="listItem" onclick="switchMenu()" href="#">&#9776;</a></li>
+            <li><a class="listItem" href="index.html">Home</a></li>
+            <li><a class="listItem" href="quakertown.html">Quakertown</a></li>
+            <li><a class="listItem" href="contact.html">Contact</a></li>
+            <li><a class="listItem" href="directory.html">Directory</a></li>
+            <li><a class="listItem active" href="join.html">Join</a></li>
+       </ul> 
+    </nav>
+<main class="thanks">
+    <div class="lightbox-target" id="enlargedlogo">
+        <a class="lightbox-close" href="#"></a>
+    </div>
+    <section class="thankyou">
+        <h2 id="preston">Thank You</h2>
+        <p id="thanks"><i>We appreciate your interest in becoming a member of the Quakertown Chamber of Commerce. We will process your application quickly.</i></p>
+    </section>
+</main>
+<footer>
+    <div class="footerinfo">
+    <p class="copy">&copy; <span id="year"></span> | Quakertown Chamber of Commerce | Pennsylvania</p>
+    <p>Weather information provided by <a class="attribution" href="https://openweathermap.org/">OpenWeather</a></p>
+    <p><span id="current"></span> | <a class="attribution" href="attribution.html">Attribution</a></p>
+    </div>
+    <section class="address">
+    <p id="contact1">🧭&nbsp;234 Real Dr <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quakertown, PA 18951</p>
+    <p id="contact2">☎&nbsp;555-222-1234 <br>
+    ✉&nbsp;qtowncoc@mysite.gov</p>
+    </section>
+    <ul class="social">
+        <li><a href="https://www.facebook.com/"><img class="socialicons" src="images/rsz_pngfindcom-instagram-symbol-png-102712.png" alt="facebook icon"></a></li>&nbsp;
+        <li><a href="https://www.instagram.com/"><img class="socialicons" src="images/rsz_1pngfindcom-instagram-symbol-png-102712.png" alt="instagram icon"></a></li>&nbsp;
+        <li><a href="https://twitter.com/"><img class="socialicons" src="images/rsz_2pngfindcom-instagram-symbol-png-102712.png" alt="twitter icon"></a></li>&nbsp;
+        <li><a href="https://www.youtube.com/"><img class="socialicons" src="images/rsz_3pngfindcom-instagram-symbol-png-102712.png" alt="youtube icon"></a></li>
+    </ul>
+</footer>
+<script src="js/dates.js"></script> 
+<script src="js/navigation.js"></script>
+<script src="js/enlargelogo.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script> WebFont.load({google: {families: ["Playfair Display SC", "Miss Fajardose", "Corinthia", "Lobster", "Roboto", "Open Sans", "sans-serif"] }}); </script>
+</body>
+</html>

@@ -1,7 +1,15 @@
 const onecallurl = "https://api.openweathermap.org/data/2.5/onecall?&lat=40.4418&lon=-75.3416&units=imperial&appid=5b1c85008a1ef7a21d5e39aa1f79fd44"
 fetch(onecallurl)
 
-  .then((jsonObject) => {
+.then(function (response) {
+
+  if (!response.ok) {
+    throw Error(response.statusText);
+  } else {
+  return response.json();
+  }})
+
+.then((jsonObject) => {
     let alerts = jsonObject['alerts'];
     alerts.foreach((alert) => {
 

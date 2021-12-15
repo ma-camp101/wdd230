@@ -84,6 +84,13 @@
     .join h2 {
         grid-column: 1;
     }
+    .cards {
+        width: 90vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin-top: 10px;
+    }
     footer {
         flex-direction: row;
         width: 100vw;

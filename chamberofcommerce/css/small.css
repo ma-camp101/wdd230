@@ -301,7 +301,7 @@ a.lightbox-close:after {
     margin-bottom: 10px;
     font-weight: 700;
 }
-.featuredbiz {
+.featuredbiz, .cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -310,14 +310,14 @@ a.lightbox-close:after {
     width: 300px;  
     margin: 0 auto; 
 }
-.featuredbiz section {
+.featuredbiz section, .cards section {
     background-color: #f5f8de;
     margin-bottom: 20px;
     padding: 10px;
     text-align: center;
     border: solid thin #1d4861;
 }
-.featuredbiz section img {
+.featuredbiz section img, .cards section img {
     width: 100%;
 }
 #qtown {

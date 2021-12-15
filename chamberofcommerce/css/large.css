@@ -37,4 +37,10 @@
         width: 80%;
         min-width: 300px;
     }
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .cards section img {
+        width: 50%;
+    }
 }
