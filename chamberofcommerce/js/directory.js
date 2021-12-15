@@ -1,14 +1,6 @@
 const businesses = 'json/businesses.json';
 fetch(businesses)
 
-  .then(function (response) {
-
-    if (!response.ok) {
-      throw Error(response.statusText);
-    } else {
-    return response.json();
-    }})
-
   .then(function (jsonObject) {
     let businesses = jsonObject['businesses'];
     businesses.forEach((business) => {
