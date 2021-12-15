@@ -298,6 +298,7 @@ a.lightbox-close:after {
     opacity: 70%;
     width: 70vw;
     margin: 0 auto;
+    margin-bottom: 10px;
     font-weight: 700;
 }
 .featuredbiz {
@@ -318,6 +319,30 @@ a.lightbox-close:after {
 }
 .featuredbiz section img {
     width: 100%;
+}
+#qtown {
+    font-size: 2rem;
+    font-weight: 900;
+}
+.article {
+    background-color: #caa8cf;
+    font-size: 1.35rem;
+    font-weight: 700;
+    width: 90vw;
+    padding: 10px 20px 100px 20px;
+    margin: 5px auto;
+}
+#libertyhall {
+    float: right;
+    padding: 5px;
+}
+#tavern {
+    float: left;
+    padding: 5px;
+}
+#trainstation {
+    float: right;
+    padding: 5px;
 }
 footer {
     display: flex;
