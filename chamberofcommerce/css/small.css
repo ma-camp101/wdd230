@@ -324,12 +324,23 @@ a.lightbox-close:after {
     font-size: 2rem;
     font-weight: 900;
 }
+.marks a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.demographics {
+    list-style-type: none;
+    margin: 10px auto;
+    margin-left: -20px;
+}
+.stats {
+    font-weight: 400;
+}
 .article {
-    background-color: #caa8cf;
     font-size: 1.35rem;
     font-weight: 700;
     width: 90vw;
-    padding: 10px 20px 100px 20px;
+    padding: 10px 20px;
     margin: 5px auto;
 }
 #libertyhall {

@@ -1,5 +1,5 @@
-const businesses = 'json/businesses.json';
-fetch(businesses)
+const companies = 'json/businesses.json';
+fetch(companies)
 
   .then(function (response) {
 
