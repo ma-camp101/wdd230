@@ -1,0 +1,23 @@
+@media only screen and (min-width: 1024px) {
+    .featuredbiz {
+        flex-direction: row;
+        margin-top: 100px;
+    }
+    .featuredbiz section {
+        flex-direction: column;
+    }
+    .featuredbiz section:nth-child(even) {
+        flex-direction: column;
+    }
+    .threeday {
+        margin-right: 100px;
+    }
+    .threeday p {
+        padding: 10px 40px 10px 20px;
+        font-size: 1.5rem;
+    }
+    .welcome {
+        margin: 0 auto;
+    }
+
+}
