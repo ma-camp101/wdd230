@@ -488,3 +488,11 @@ footer a {
 .social li a {
     text-decoration: none;
 }
+.photoattribution {
+    list-style-type: none;
+    font-weight: 700;
+}
+.photoattribution a {
+    text-decoration: none;
+    font-weight: 400;
+}
