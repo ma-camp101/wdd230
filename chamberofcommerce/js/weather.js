@@ -10,7 +10,7 @@ fetch(onecallURL)
     
   .then((jsObject) => {
 
-    const imagesrc = ' http://openweathermap.org/img/wn/' + jsObject.current.weather[0].icon + '.png';
+    const imagesrc = ' https://openweathermap.org/img/wn/' + jsObject.current.weather[0].icon + '.png';
 
     document.getElementById('currenticon').setAttribute('src', `${imagesrc}`);
     document.getElementById('currenticon').setAttribute('alt', `${jsObject.current.weather[0].description}`);
