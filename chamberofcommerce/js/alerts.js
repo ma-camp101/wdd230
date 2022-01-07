@@ -3,17 +3,8 @@ fetch(onecallurl)
 
 .then((response) => response.json())
 
-.then(function (response) {
-
-  if (!response.ok) {
-    throw Error(response.statusText);
-  } else {
-  return response.json();
-  }})
-
   .then((jsonObject) => {
     let alerts = jsonObject['alerts'];
-    try {
   
       alerts.forEach((alert) => {
 
@@ -48,7 +39,5 @@ fetch(onecallurl)
         tags.innerHTML = `${alert.tags[0]}`;
         warning.appendChild(tags);
       document.querySelector('div.alerts').appendChild(warning);
-      })
-    } catch (error) {
-    }
+      });
   });
