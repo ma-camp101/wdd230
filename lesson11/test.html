@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let day = today.getDay();
+let saturdayMsg = document.querySelector(".special");
+saturdayMsg.addEventListener("onload", eventShow());
+
+function eventShow() {
+    if(day == 5) { saturdayMsg.classList.add("reveal"); }
+    else { saturdayMsg.classList.remove("reveal"); }}
+    </script>
+    <Style>
+        .special {
+    display: none;
+}
+.reveal {
+    display: flex;
+    font-size: 2em;
+    font-weight: 700;
+    color: #ffff92;
+    justify-content: center;
+    padding: 20px;
+}
+    </Style>
+</head>
+<body>
+    <div class="special">
+        <p><i>Saturday: Preston Pancakes in the Park! 9 a.m. Saturday at the City Park.</i></p>
+    </div>
+</body>
+</html>
