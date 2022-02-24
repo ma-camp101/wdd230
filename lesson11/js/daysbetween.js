@@ -1,7 +1,7 @@
 function lastVisit() {
 
     let today = new Date();
-    let millisecondsToDays = 8640000;
+    let millisecondsToDays = 86400000;
     let prior = localStorage.getItem('lastvisit');
     let obj = new Date(prior);
 

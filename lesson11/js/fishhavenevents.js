@@ -34,7 +34,7 @@ fetch(homepageurl)
         `${town.events[2]}`;
         towns.appendChild(p3);
         p4.innerHTML =
-        `${towns.events[3]}`;
+        `${town.events[3]}`;
         towns.appendChild(p4);
       document.querySelector('div.events').appendChild(towns);
       }
